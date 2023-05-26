@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.contact-header-banner {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.contact-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    39,
+    30,
+    170,
+    0.8
+  ); /* Adjust the overlay color and opacity */
+  z-index: 1;
+  max-width: 600px; /* Set the maximum width of the overlay to 300px */
+}
+
+.contact-header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-header-content {
+  margin-left: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px;
+  color: #fff;
+  z-index: 2;
+}
+
+.contact-header-heading-tag {
+  margin: 0;
+  margin-bottom: -8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.contact-header-title {
+  font-family: "Antonio", sans-serif;
+  font-size: 52px;
+  margin: 10px 0;
+  margin-bottom: 1rem;
+}
+
+.contact-header-title span {
+  color: #000000;
+}
+
+.contact-header-bottom-tag {
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.contact-header-bottom-button {
+  margin-top: 22px;
+  padding: 10px 20px;
+  background-color: #1b5e88;
+  cursor: pointer;
+  display: flex;
+}
+
+.contact-header-bottom-button button {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.contact-header-bottom-button:hover {
+  background-color: hsl(203, 67%, 16%);
+}

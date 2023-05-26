@@ -1,0 +1,80 @@
+  
+  .featured-author__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .featured-author__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .featured-author__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .featured-author__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .featured-author__card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .featured-author__image-wrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  
+  .featured-author__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .featured-author__content {
+    flex-grow: 1;
+  }
+  
+  .featured-author__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .featured-author__bio {
+    margin-bottom: 1rem;
+  }
+  
+  .featured-author__social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .featured-author__social-link {
+    display: inline-block;
+    color: #333333;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .featured-author__social-link:hover {
+    color: #007bff;
+  }
+  

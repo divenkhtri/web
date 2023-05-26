@@ -1,0 +1,35 @@
+/* blog-categories.css */
+
+.blog-categories__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .blog-categories__title {
+    text-align: start;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .blog-categories__list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .blog-categories__item {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blog-categories__item:hover {
+    background-color: #e0e0e0;
+  }
+  
