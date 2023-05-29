@@ -1,17 +1,15 @@
 import React from "react";
+import DigitalHeader from "../../components/ServicePage/DigitalEngineering/DigitalHeader";
+import DigitalMainSection from "../../components/ServicePage/DigitalEngineering/DigitalMainSection";
+import SuccessStorySection from "../../components/ServicePage/SuccessStorySection";
 
 const DigitalEngineeringAndTransformation = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
-    >
-      <h1>DigitalEngineeringAndTransformation</h1>
-    </div>
+    <>
+      <DigitalHeader/>
+      <DigitalMainSection/>
+      <SuccessStorySection/>
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Industry/IndustryHeader.css";
 import heroBackground from "../../assets/Images/Services/cloudbg.jpg";
-import { Link } from "react-router-dom";
+
 const IndustryHeader = () => {
   return (
     <>
@@ -22,7 +22,6 @@ const IndustryHeader = () => {
               <p>Build your digital fortress with us!</p>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

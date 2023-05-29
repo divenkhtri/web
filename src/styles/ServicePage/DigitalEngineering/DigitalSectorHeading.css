@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.digital-main-offering {
+  background-color: #e6e7e8;
+  font-family: "Poppins", sans-serif;
+}
+.digital-sector-main-section {
+  margin: 5rem;
+  padding-left: 6.2rem;
+  padding-right: 6.2rem;
+}
+
+.digital-main-offering-heading {
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.digital-main-offering-heading h2 {
+  font-size: 32px;
+  color: #fb6413; 
+}
+
+.digital-main-offering-descrpt {
+  font-size: 16px;
+  font-weight: 400;
+}

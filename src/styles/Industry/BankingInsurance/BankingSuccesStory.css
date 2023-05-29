@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+.banking-story-container {
+  width: 100%;
+  height: 100vh;
+  padding-left: 10rem;
+  padding-right:1rem;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.banking-story-row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.banking-story-col {
+  flex-basis: 50%;
+}
+.banking-story-h5{
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+.banking-story-desc2{
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.banking-story-h1 {
+  color:  hsl(21, 97%, 53%);
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.banking-story-desc {
+  color: #000;
+  font-size: 14px;
+  line-height: 15px;  
+}
+
+.banking-story-button {
+  width: 180px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 0;
+  background-color: #000000;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 30px;
+}
+
+.banking-story-card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 20px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.banking-story-card1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+  
+}
+.banking-story-card2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+}
+.banking-story-card3 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+}
+.banking-story-card4 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+}
+
+.banking-story-card:hover {
+  transform: translateY(-25px);
+}

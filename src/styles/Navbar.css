@@ -1,5 +1,61 @@
-
-.container{
+.container {
   margin-right: 100px;
+}
 
+@media (max-width: 520px) {
+  .navbar {
+    width: 100%;
+    right: 0;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .navbar.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .header-logo {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    padding: 1rem;
+    border-radius: 0;
+    border: 0;
+  }
+
+  .submenu {
+    position: static !important;
+    display: block !important;
+    visibility: visible;
+    opacity: 1;
+    margin-top: 10px;
+  }
+
+  .submenu.hidden {
+    display: none !important;
+  }
 }

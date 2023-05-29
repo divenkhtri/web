@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Blog from "./pages/BlogAndNews/BlogandNews";
 import Blogpost from "./pages/BlogAndNews/BlogandNewsPot";
-import Footer from "./components/HomescreenComponents/Footer/Section";
+import Footer from "./components/HomescreenComponents/Footer/Footer";
 import SuccessStory from "./pages/SuccessStory/SuccessStory";
 import SuccessStoryPost from "./pages/SuccessStory/SuccessStoryPost";
 import Service from "./pages/Service";
@@ -77,15 +77,21 @@ function App() {
           path="/industry/travel-transportation-and-hospitality"
           element={<TravelTransportationAndHospitality />}
         />
-        <Route path="/industry/retail-and-conumer-goods" element={<RetailAndConsumerGoods />} />
+        <Route
+          path="/industry/retail-and-conumer-goods"
+          element={<RetailAndConsumerGoods />}
+        />
         <Route
           path="/industry/industrial-goods-and-manufacturing"
           element={<IndustrialGoodsAndManufacturing />}
         />
-        <Route path="/industry/telecommunication-and-media" element={<TelecomAndMedia />} />
+        <Route
+          path="/industry/telecommunication-and-media"
+          element={<TelecomAndMedia />}
+        />
       </Routes>
 
-      <Footer />
+    <Footer />
     </>
   );
 }

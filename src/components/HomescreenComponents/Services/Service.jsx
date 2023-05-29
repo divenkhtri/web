@@ -1,6 +1,10 @@
 import React from "react";
 import "../../../styles/service.css";
 import { Link } from "react-router-dom";
+import img1 from "../../../assets/Images/Services/Data-analytics-block3.jpg";
+import img from "../../../assets/Images/Services/cloud native development.png";
+import img2 from "../../../assets/Images/Services/product-design-team-role-01.jpg";
+import img4 from "../../../assets/Images/Services/consulting.jpg";
 
 const ServiceCard = ({ backgroundUrl, name, index }) => {
   const renderServicesCategory = () => {
@@ -8,13 +12,22 @@ const ServiceCard = ({ backgroundUrl, name, index }) => {
       case 0:
         return (
           <>
-            <Link to="/services/data-engineering-and-solutions#data-integrity" className="service__fa">
+            <Link
+              to="/services/data-engineering-and-solutions#data-integrity"
+              className="service__fa"
+            >
               Data Integrity Solutions
             </Link>
-            <Link to="/services/data-engineering-and-solutions#dmaster-data-management" className="service__fa">
+            <Link
+              to="/services/data-engineering-and-solutions#dmaster-data-management"
+              className="service__fa"
+            >
               Master Data Management
             </Link>
-            <Link to="/services/data-engineering-and-solutions#danalytics-ai" className="service__fa">
+            <Link
+              to="/services/data-engineering-and-solutions#danalytics-ai"
+              className="service__fa"
+            >
               Analytics and AI
             </Link>
           </>
@@ -22,13 +35,22 @@ const ServiceCard = ({ backgroundUrl, name, index }) => {
       case 1:
         return (
           <>
-            <Link to="/services/digital-engineering-and-transformation#customer-experience" className="service__fa">
+            <Link
+              to="/services/digital-engineering-and-transformation#customer-experience"
+              className="service__fa"
+            >
               Customer Experience Management
             </Link>
-            <Link to="/services/digital-engineering-and-transformation#product-design-engineering" className="service__fa">
+            <Link
+              to="/services/digital-engineering-and-transformation#product-design-engineering"
+              className="service__fa"
+            >
               Product Design and Engineering
             </Link>
-            <Link to="/services/digital-engineering-and-transformation#app-development-support" className="service__fa">
+            <Link
+              to="/services/digital-engineering-and-transformation#app-development-support"
+              className="service__fa"
+            >
               App Development and Support
             </Link>
           </>
@@ -80,23 +102,21 @@ const ServiceCardContainer = () => {
   const serviceData = [
     {
       name: "Data Engineering & Solutions      ",
-      backgroundUrl:
-        "https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600",
+      backgroundUrl: "../../../assets/Images/Services/consulting.png",
     },
     {
       name: "Digital Engineering & Transformation",
       backgroundUrl:
-        "https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "../../../assets/Images/Services/product-design-team-role-01.jpg",
     },
     {
       name: "Cloud Engineering & Platforms",
       backgroundUrl:
-        "https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "../../../assets/Images/Services/cloud native development.png",
     },
     {
       name: "Advisory & Consulting",
-      backgroundUrl:
-        "https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600",
+      backgroundUrl: "../../../assets/Images/Services/consulting.jpg",
     },
   ];
 

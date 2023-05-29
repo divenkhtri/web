@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.digital-main-section {
+  margin: 5rem;
+  padding-left: 6.2rem;
+  padding-right: 6.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.digital-main-section-heading {
+  margin: 3rem 0;
+  font-weight: 500;
+}
+
+.digital-main-section-heading h1 {
+  font-size: 32px;
+  color: hsl(21, 97%, 53%);
+}
+
+.digital-main-section-description {
+  font-weight: 400;
+}
+
+.digital-main-section-description p {
+  font-size: 16px;
+} 
+
+.digital-main-card-container {
+  display: flex;
+}
+
+.digital-mains-cards {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.digital-main-card-border {
+  padding: 2rem 0;
+  border-top: 2px solid hsl(21, 97%, 53%);
+  border-bottom: 2px solid hsl(21, 97%, 53%);
+  height: 100%;
+}
+.digital-main-card-title {
+  height: 70px;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 2rem 0;
+  transition: color 0.1s ease;
+}
+.digital-mains-cards:hover .digital-main-card-title {
+  color: rgba(39, 30, 170, 0.8);
+}
+
+.digital-main-card-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.digital-main-card-icon--descp {
+  display: flex;
+  align-items: flex-start;
+}
+
+.digital-main-card-icon .digital-main-card-description {
+  flex: 1;
+}
+.digital-main-card-icon {
+  color: #000;
+  margin-top: 8px;
+  padding-right: 10px;
+}
+
+.digital-mains-cards:hover .digital-main-card-icon {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+  color: rgba(39, 30, 170, 0.8);
+  size: 34px;
+}
+
+.digital-mains-cards:hover .digital-main-card-border {
+  border-top: 3px solid rgba(39, 30, 170, 0.8);
+  border-bottom: 3px solid rgba(39, 30, 170, 0.8);
+}

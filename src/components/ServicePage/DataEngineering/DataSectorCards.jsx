@@ -21,7 +21,7 @@ const DataSectorCards = () => {
                 your valuable information assets. Trust us for reliable data
                 integrity solutions.
               </p> 
-            </div>
+            </div> 
           </div>
         </div>
         <div className="data-eng-main-section">

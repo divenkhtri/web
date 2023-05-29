@@ -7,7 +7,7 @@
   }
   
   .featured-blogs__title {
-    text-align: start;
+    text-align: flex-start;
     font-size: 2rem;
     margin-bottom: 2rem;
   }
@@ -21,9 +21,9 @@
   .featured-blogs__card {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
-    text-align: start;
+    text-align: flex-start;
     background-color: #f0f0f0;
     padding: 2rem;
     border-radius: 8px;

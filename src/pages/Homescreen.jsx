@@ -7,11 +7,11 @@ import HeroSlider from "../components/HeroSlider";
 import IndustryCard from "../components/HomescreenComponents/Industry/IndustryCard";
 import OurPartners from "../components/HomescreenComponents/Our Partners/OurPartners";
 import SuccessStory from "../components/HomescreenComponents/SuccessStory/SuccessStory";
-import NewsAndBlog from "../components/HomescreenComponents/NewsAndBlog/NewAndBlog";
 
 import CardContainer from "../components/HomescreenComponents/Services/Service";
 
 import ContactHeader from "../components/HomescreenComponents/ContactUs/Contact";
+import BlogHomeScreen from "../components/HomescreenComponents/NewsAndBlog/BlogHomeScreen";
 
 const Homescreen = () => {
   return (
@@ -24,7 +24,7 @@ const Homescreen = () => {
         <IndustryCard />
         <AboutUs />
         <SuccessStory />
-        <NewsAndBlog />
+        <BlogHomeScreen />
         <ContactHeader />
       </main>
     </>

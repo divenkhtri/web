@@ -10,7 +10,7 @@ const StoryCategory = () => {
         <h2 className="blog-categories__title">Blog Categories</h2>
         <div className="blog-categories__list">
           {categories.map((category, index) => (
-            <a href="#" className="blog-categories__item" key={index}>
+            <a href="/" className="blog-categories__item" key={index}>
               {category}
             </a>
           ))}

@@ -19,7 +19,7 @@ const DataSectorHeading = () => {
               innovation and reduce time to value realization.
             </p>
           </div>
-        </div>
+        </div> 
         <DataSectorCards/>
       </section>
    </>

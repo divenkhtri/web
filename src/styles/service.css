@@ -141,7 +141,7 @@
 }
 
 .service__fa:hover {
-  color: cyan;
+  color: hsl(21, 97%, 53%);
   font-size: 16px;
   font-weight: 600;
 }

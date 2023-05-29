@@ -6,9 +6,9 @@ import SuccessStorySection from "../../components/ServicePage/SuccessStorySectio
 const DataEngineeringAndSolutions = () => {
   return (
     <>
-      <DataHeader/>
-      <DataMainSection/>
-      <SuccessStorySection/>  
+      <DataHeader />
+      <DataMainSection />
+      <SuccessStorySection />
     </>
   );
 };
