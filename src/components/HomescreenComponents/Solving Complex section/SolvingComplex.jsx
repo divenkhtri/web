@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../../styles/SolvingComplex.css";
-import imge from "../../../assets/Images/SolvingComplex/eliminate blind spot.jpg";
+import imge from "../../../assets/Images/SolvingComplex/digital.webp";
 import imge2 from "../../../assets/Images/SolvingComplex/digital.webp";
 import imge3 from "../../../assets/Images/SolvingComplex/decision.webp";
 import imge4 from "../../../assets/Images/SolvingComplex/growth.webp";
