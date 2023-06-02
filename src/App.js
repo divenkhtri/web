@@ -25,6 +25,14 @@ import RetailAndConsumerGoods from "./pages/Industry/RetailAndConsumerGoods";
 import IndustrialGoodsAndManufacturing from "./pages/Industry/IndustrialGoodsAndManufacturing";
 import TelecomAndMedia from "./pages/Industry/TelecomAndMedia";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { far } from "@fortawesome/free-regular-svg-icons"; 
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import MainStoryPage from "./pages/SuccessStory/SuccessStoryPage/MainStoryPage";
+
+// This exports the whole icon packs for Brand and Solid.
+library.add(far, fas);
+
 function App() {
   return (
     <>
@@ -89,9 +97,14 @@ function App() {
           path="/industry/telecommunication-and-media"
           element={<TelecomAndMedia />}
         />
+      {/* Success Story Post */}
+
+      <Route path="/success-story-post"
+      element={<MainStoryPage/>}/>
       </Routes>
 
-    <Footer />
+
+      <Footer />
     </>
   );
 }

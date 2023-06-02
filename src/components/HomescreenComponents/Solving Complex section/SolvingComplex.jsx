@@ -1,10 +1,10 @@
 import React from "react";
 
 import "../../../styles/SolvingComplex.css";
-import imge from "../../../assets/Images/SolvingComplex/growth.jpg";
-import imge2 from "../../../assets/Images/SolvingComplex/growth.jpg";
-import imge3 from "../../../assets/Images/SolvingComplex/growth.jpg";
-import imge4 from "../../../assets/Images/SolvingComplex/growth.jpg";
+import imge from "../../../assets/Images/SolvingComplex/eliminate blind spot.jpg";
+import imge2 from "../../../assets/Images/SolvingComplex/digital.webp";
+import imge3 from "../../../assets/Images/SolvingComplex/decision.webp";
+import imge4 from "../../../assets/Images/SolvingComplex/growth.webp";
 
 const SolvingComplex = () => {
   return (
@@ -26,8 +26,8 @@ const SolvingComplex = () => {
               Eliminate Blind <br /> Spot
             </h3>
             <p>
-              I don't need to compromise my principles, because they don't have
-              the slightest bearing on what happens to me anyway.
+              Discover new  opportunities for organizations data, operations and
+              business
             </p>
           </figcaption>
           <a href="#"></a>
@@ -39,8 +39,8 @@ const SolvingComplex = () => {
           <figcaption>
             <h3>Achieve Digital Transformation</h3>
             <p>
-              I don't need to compromise my principles, because they don't have
-              the slightest bearing on what happens to me anyway.
+              Leverage automation data, digital and cloud to architect
+              composable and flexible Information architecture
             </p>
           </figcaption>
           <a href="#"></a>
@@ -54,8 +54,8 @@ const SolvingComplex = () => {
               Accelerate <br /> Decision
             </h3>
             <p>
-              I don't need to compromise my principles, because they don't have
-              the slightest bearing on what happens to me anyway.
+              Implement AI and ML for instantaneous decisions based on
+              actionable Insights
             </p>
           </figcaption>
           <a href="#"></a>
@@ -69,8 +69,8 @@ const SolvingComplex = () => {
               Drive Growth & <br /> ROI
             </h3>
             <p>
-              I don't need to compromise my principles, because they don't have
-              the slightest bearing on what happens to me anyway.
+              Drive automation, optimization and re-engineering to drive growth,
+              productivity and efficiency
             </p>
           </figcaption>
           <a href="#"></a>

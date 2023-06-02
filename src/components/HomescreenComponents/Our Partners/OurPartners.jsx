@@ -5,7 +5,7 @@ import azure from "../../../assets/Images/OurPatner/azure.png";
 import precisely from "../../../assets/Images/OurPatner/precisely.svg";
 import equinix from "../../../assets/Images/OurPatner/equinix.png";
 import ors from "../../../assets/Images/OurPatner/ors.svg";
-import tableau from "../../../assets/Images/OurPatner/tableau.png";
+import turbotune from "../../../assets/Images/OurPatner/turbotune.png";
 import salesforce from "../../../assets/Images/OurPatner/salesforce.png";
 import "../../../styles/OurPartners.css";
 
@@ -64,7 +64,7 @@ const OurPartners = () => {
           </div>
           <div className="carousel-item">
             <img
-              src={tableau}
+              src={turbotune}
               alt="tableau"
               className="carousel-image"
               height={200}

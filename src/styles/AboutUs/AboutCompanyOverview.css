@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.about-top-main-section {
+  margin: 5rem 5rem 5px 5rem;
+  padding-left: 6.2rem;
+  padding-right: 6.2rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 11rem;
+}
+
+.about-top-main-section-heading {
+  margin: 3rem 0;
+  font-weight: 500;
+}
+
+.about-top-main-section-heading h1 {
+  font-size: 32px;
+  color: hsl(21, 97%, 53%);
+}
+
+.about-top-main-section-description {
+  font-weight: 400;
+}
+
+.about-top-main-section-description p {
+  font-size: 16px;
+}
+
+.about-top-main-card-container {
+  display: flex;
+}
+
+.about-top-mains-cards {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.about-top-main-card-border {
+  padding: 2rem 0;
+  border-top: 2px solid hsl(21, 97%, 53%);
+  border-bottom: 2px solid hsl(21, 97%, 53%);
+  height: 100%;
+}
+.about-top-main-card-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 2rem 0;
+  transition: color 0.1s ease;
+}
+.about-top-mains-cards:hover .about-top-main-card-title {
+  color: rgba(39, 30, 170, 0.8);
+}
+
+.about-top-main-card-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-top-main-card-icon--descp {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-top-main-card-icon .about-top-main-card-description {
+  flex: 1;
+}
+.about-top-main-card-icon {
+  color: #000;
+  margin-top: 8px;
+  padding-right: 10px;
+}
+
+.about-top-mains-cards:hover .about-top-main-card-icon {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+  color: rgba(39, 30, 170, 0.8);
+  size: 34px;
+}
+
+.about-top-mains-cards:hover .about-top-main-card-border {
+  border-top: 3px solid rgba(39, 30, 170, 0.8);
+  border-bottom: 3px solid rgba(39, 30, 170, 0.8);
+}

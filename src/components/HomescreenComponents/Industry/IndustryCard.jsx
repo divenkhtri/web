@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Modal from "react-modal";
 import { MdClose } from "react-icons/md";
-import LazyLoad from "react-lazyload";
 
-import bank from "../../../assets/Images/IndustrySection/bank.jpg";
-import transportation from "../../../assets/Images/IndustrySection/transportation.jpg";
-import pharma from "../../../assets/Images/IndustrySection/pharma.jpg";
-import manufacturing from "../../../assets/Images/IndustrySection/manufacturing.jpg";
-import retail from "../../../assets/Images/IndustrySection/retail.jpg";
-import telecom from "../../../assets/Images/IndustrySection/telecom.jpg";
+
+import bank from "../../../assets/Images/IndustrySection/bank.webp";
+import transportation from "../../../assets/Images/IndustrySection/transportation.webp";
+import pharma from "../../../assets/Images/IndustrySection/pharma.webp";
+import manufacturing from "../../../assets/Images/IndustrySection/manufacturing.webp";
+import retail from "../../../assets/Images/IndustrySection/retail.webp";
+import telecom from "../../../assets/Images/IndustrySection/telecom.webp";
 
 const Container = styled.div`
-  margin: 4rem;
-  padding: 2rem;
+  margin: 4rem 4rem 0px 4rem;
+  padding: 0px 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -195,59 +195,59 @@ const cards = [
   {
     title: "Banking, Insurance & Financial Services",
     description:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit.....",
+      "RGS-Tech offers innovative technological solutions for banking, insurance, and financial services. With deep industry expertise, we empower clients to enhance efficiency.",
     largeDescription:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit",
+      "In the dynamic landscape of banking, insurance, and financial services, we understand the crucial role that trust, security, and innovation play. At RGS-Tech, we are committed to providing cutting-edge technological solutions tailored to the unique needs of the banking, insurance, and financial sectors. Our comprehensive suite of services, combined with our deep industry expertise, enables us to deliver seamless digital experiences, enhance operational efficiency, mitigate risks, and drive sustainable growth.",
     imageSrc: bank,
-    link: "/banking-insurance-and-financial-institution",
+    link: "/industry/banking-insurance-and-financial-institution",
   },
   {
     title: "Healthcare, Pharma & Life Science",
     description:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit.....",
+      "Transforming healthcare, pharma & life sciences with innovative solutions for better patient care and accelerated medical advancements.",
     largeDescription:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit",
+      "In the healthcare, pharma, and life science industry, our aim is to revolutionize patient care, advance medical discoveries, and improve the overall quality of life. Through our comprehensive solutions and innovative approaches, we strive to address the complex challenges faced by healthcare providers, pharmaceutical companies, and researchers. With a focus on cutting-edge technology, data-driven insights, and collaborative partnerships, we are committed to driving breakthroughs in diagnostics, treatments, and personalized medicine. ",
     imageSrc: pharma,
-    link: "/healthcare-pharma-and-life-science",
+    link: "/industry/healthcare-pharma-and-life-science",
   },
   {
     title: "Travel, Transportation & Hospitality",
     description:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit.....",
+      "Revolutionizing travel, transportation, and hospitality industries with innovative solutions, seamless experiences, and unparalleled customer service.",
     largeDescription:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit",
+      "In the fast-paced world of Travel, Transportation, and Hospitality, we understand the vital importance of seamless experiences and exceptional service. At RGS-Tech, we are committed to revolutionizing the industry by delivering cutting-edge technology solutions that enhance efficiency, optimize operations. Through our innovative software platforms, data-driven insights, and personalized customer engagement tools, we empower businesses in the Travel, Transportation, and Hospitality sector to unlock new levels of success.",
     imageSrc: transportation,
-    link: "/travel-transportation-and-hospitality",
+    link: "/industry/travel-transportation-and-hospitality",
   },
   {
     title: "Retail, Consumer Products & Goods",
     description:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit.....",
+      "Empowering retail, consumer products, and goods industries with digital innovation, personalized experiences, and sustainable solutions.",
     largeDescription:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit",
+      "In the fast-paced world of the Retail, Consumer Products & Goods industry, RGS-Tech is your trusted partner for success. With our deep understanding of the unique challenges and dynamics of this industry, we provide innovative technological solutions that help businesses thrive. From streamlining supply chain operations and optimizing inventory management to enhancing customer experiences through personalized engagement and omnichannel strategies.",
     imageSrc: retail,
-    link: "/retail-and-conumer-goods",
+    link: "/industry/retail-and-conumer-goods",
   },
   {
     title: "Industrial Goods & Manufacturing",
     description:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit.....",
+      "Driving industrial goods and manufacturing sectors forward with advanced technologies, efficient processes, and sustainable solutions.",
     largeDescription:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit",
+      "In the Industrial Goods & Manufacturing industry, precision, reliability, and efficiency are paramount. At RGS-Tech, we understand the unique challenges and demands faced by businesses in this sector, and we are committed to providing innovative solutions that optimize production processes, enhance operational efficiency, and drive overall competitiveness.",
     imageSrc: manufacturing,
-    link: "/industrial-goods-and-manufacturing",
+    link: "/industry/industrial-goods-and-manufacturing",
   },
 
   {
     title: "Telecommunication & Media",
     description:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit.....",
+      "Revolutionizing the telecommunication and media industries with cutting-edge technology, seamless connectivity, and engaging content.",
     largeDescription:
-      "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit",
+      "The Telecommunication & Media industry plays a pivotal role in connecting people, facilitating global communication, and providing access to information and entertainment on a massive scale. With the rapid advancements in technology, this industry is constantly evolving to meet the ever-changing needs and demands of consumers. From telecommunications giants that enable seamless voice and data transmission across borders to media companies that deliver captivating content through various platforms, this industry fuels connectivity, creativity, and engagement. ",
     imageSrc: telecom,
-    link: "/telecommunication-and-media",
+    link: "/industry/telecommunication-and-media",
   },
-  // Add more card objects for remaining cards
+
 ];
 
 const IndustryCard = () => {
@@ -272,13 +272,13 @@ const IndustryCard = () => {
       <Container>
         {cards.map((card, i) => (
           <CardWrapper key={i}>
-            <LazyLoad height={200}>
+           
               <Card onClick={() => openModal(card)}>
                 <CardImage src={card.imageSrc} alt={card.title} />
                 <CardTitle>{card.title}</CardTitle>
                 <CardDescription>{card.description}</CardDescription>
               </Card>
-            </LazyLoad>
+       
           </CardWrapper>
         ))}
       </Container>

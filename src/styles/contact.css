@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
-  
 }
 
 .contct_container {
@@ -42,10 +41,11 @@
   border: none;
   outline: none;
   border-bottom: 1px solid #000;
-  /* transition:0.5s */
+  transition: 0.5s;
 }
 
-.contct_wrapper .contct_box input:focus ~ label {
+.contct_wrapper .contct_box input:focus ~ label,
+.contct_wrapper .contct_box input:valid ~ label {
   transform: translateY(-32px);
 }
 
@@ -53,8 +53,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  color: #727171;
-  font-size: 14px;
+  color: #636268;
+  font-size: 16px;
   font-weight: 400;
   padding: 20px;
   transition: 0.5s;
@@ -74,7 +74,8 @@
   margin-top: -260px;
 }
 
-.contct_wrapper .contct_box textarea:focus ~ .label-text-msg {
+.contct_wrapper .contct_box textarea:focus ~ .label-text-msg,
+.contct_wrapper .contct_box textarea:valid ~ .label-text-msg {
   transform: translateY(-48px);
 }
 
@@ -86,86 +87,6 @@
   resize: vertical;
   line-height: normal;
   transition: 0.5s;
-  /* margin:15px 0px 0px 20px;  */
-}
-
-.contact-submit-btn {
-  margin-left: 3rem;
-  border: none;
-  display: flex;
-  flex-direction: row;
-  padding: 10px 20px;
-
-  font-size: 16px;
-  font-weight: bold;
-  /* text-transform: uppercase; */
-  cursor: pointer;
-}
-
-.cont_submit {
-  margin-right: 1rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 10px 20px;
-  gap: 10px;
-
-  width: 116px;
-  height: 47px;
-  left: 397px;
-  top: 767px;
-  border: none;
-  background: #67afef;
-  border-radius: 5px;
-  font-size: 22px;
-  line-height: 27px;
-  /* identical to box height */
-
-  color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.contact_submit1 {
-  margin-left: 1rem;
-  display: flex;
-
-  align-items: center;
-  padding: 10px 20px;
-  gap: 10px;
-  background: #1b5e88;
-  border-radius: 5px;
-  width: auto;
-  height: auto;
-  left: 593px;
-  top: 767px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  border: none;
-  /* identical to box height */
-
-  color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.checkbox-data {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
-.contct_box {
-  margin-bottom: 15px;
 }
 
 .checkbox-container {
@@ -183,4 +104,73 @@
 
 .checkbox-label input {
   margin-right: 10px;
+}
+
+.contact-submit-btn {
+  margin-left: 3rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cont_submit {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 116px;
+  height: 47px;
+  border: none;
+  background: #67afef;
+  border-radius: 5px;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.contact_submit1 {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  background: #1b5e88;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.checkbox-data {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.contct_box {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+}
+
+.translated {
+  transform: translateY(-32px);
 }

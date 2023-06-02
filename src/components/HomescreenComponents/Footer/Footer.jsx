@@ -12,7 +12,7 @@ const Footer = () => {
             <div class="footer-start">
               <div class="footer-texts">
                 <h2 class="footer-section-title">
-                  Book A Free Consultation Meeting Now!
+                  Book A Free Consultation Now!
                 </h2>
                 <h3 class="footer-section-sub-heading">
                   <span>Our Tech Team is always ready to help</span>

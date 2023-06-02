@@ -1,0 +1,161 @@
+.schedul-meeting-container {
+  display: flex;
+
+ /* padding-left:7rem; */
+  height: 140vh;
+  background-color: #050812;
+  transition: all 0.3s ease-in-out;
+}
+
+.schedul-meeting-bg {
+  background-color: #050812;
+}
+
+.schedul-meeting-left-col {
+  margin-left: 5rem;
+  width: 100vw;
+  height: 100%;
+  background-image: url("../../assets/Images/Contact/img1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.schedul-meeting-logo {
+  width: 10rem;
+  padding: 1.5rem;
+}
+
+.schedul-meeting-right-col {
+  background: #050812;
+  width: 50vw;
+  height: 100vh;
+  padding: 5rem 3.5rem;
+}
+
+.schedul-meeting-right-col .schedul-meeting-h1 {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+.schedul-meeting-right-col .schedul-meeting-p {
+  color: #cecece;
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 40vw;
+  margin: 0.25rem 0;
+}
+
+.schedul-meeting-right-col .schedul-meeting-label {
+  color: #d6d6d6;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+.schedul-meeting-form {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.schedul-meeting,
+.schedul-meeting-input,
+.schedul-meeting-textarea,
+.schedul-meeting-label {
+  width: 40vw;
+  display: block;
+}
+
+.schedul-meeting-p,
+placeholder,
+.schedul-meeting-input,
+.schedul-meeting-textarea {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.schedul-meeting-input::placeholder,
+.schedul-meeting-textarea::placeholder {
+  color: #bbb8b8;
+}
+
+.schedul-meeting-input,
+.schedul-meeting-textarea {
+  color: #ffffff;
+  font-weight: 500;
+  background: #050812;
+  border: none;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.schedul-meeting-textarea {
+  resize: none;
+}
+
+.schedul-meeting-button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.schedul-meeting-button:hover {
+  color: #000;
+  border: none;
+  background-color: #fff;
+  z-index: 2;
+}
+.schedul-meeting-input:hover,
+.schedul-meeting-textarea:hover,
+.schedul-meeting-button:hover {
+  opacity: 0.5;
+}
+
+.schedul-meeting-button:active {
+  opacity: 0.8;
+}
+
+.schedul-meeting-error-message,
+.schedul-meeting-success-message {
+  width: 40vw;
+  margin: 0.125rem 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: "Jost";
+  color: #ffffff;
+}
+
+.schedul-meeting-success-message {
+  transition-delay: 3s;
+}
+
+@media only screen and (max-width: 950px) {
+  .schedul-meeting-logo {
+    width: 8rem;
+  }
+  .schedul-meeting-h1 {
+    font-size: 1.75rem;
+  }
+  .schedul-meeting-p {
+    font-size: 0.7rem;
+  }
+  .schedul-meeting-input,
+  .schedul-meeting-textarea,
+  .schedul-meeting-button {
+    font-size: 0.65rem;
+  }
+  .schedul-meeting-button {
+    width: 7rem;
+  }
+  .schedul-meeting-input {
+    display: none;
+  }
+  .schedul-meeting-input:checked:before {
+    transform: translateX(16px);
+  }
+}

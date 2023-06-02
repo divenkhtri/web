@@ -12,7 +12,6 @@
 .appointment-image {
   width: auto;
   height: 900px;
-
 }
 
 .appointment-form-content {
@@ -22,7 +21,6 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-
 }
 
 .appointment-form-row {
@@ -39,7 +37,6 @@
 .appointment-label {
   font-size: 16px;
   margin-bottom: 5px;
-
 }
 
 .appointment-input {
@@ -48,12 +45,11 @@
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.appointment-input-checkbox{
-margin-right: 10px;
+.appointment-input-checkbox {
+  margin-right: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
- 
 }
 
 .appointment-textarea {

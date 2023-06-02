@@ -8,7 +8,7 @@ import IndustryCard from "../components/HomescreenComponents/Industry/IndustryCa
 import OurPartners from "../components/HomescreenComponents/Our Partners/OurPartners";
 import SuccessStory from "../components/HomescreenComponents/SuccessStory/SuccessStory";
 
-import CardContainer from "../components/HomescreenComponents/Services/Service";
+import CardContainer from "../components/Service";
 
 import ContactHeader from "../components/HomescreenComponents/ContactUs/Contact";
 import BlogHomeScreen from "../components/HomescreenComponents/NewsAndBlog/BlogHomeScreen";

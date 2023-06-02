@@ -1,17 +1,19 @@
 import React from 'react'
 import "../../../styles/ServicePage/DigitalEngineering/DigitalHeader.css";
-import heroBackground from "../../../assets/Images/Services/bg.jpg";
+import digitalBg from "../../../assets/Videos/Services/DigitalEngineering/digitalbg.mp4";
 import { Link } from "react-router-dom";
 
 const DigitalHeader = () => {
   return (
     <div className="digital-engineering-banner">
     <div className="digital-engineering-overlay"></div>
-    <img
-      src={heroBackground}
-      alt="Hero Background"
-      className="digital-engineering-background"
-    />
+    <video
+          src={digitalBg}
+          autoPlay
+          muted
+          loop
+          className="digital-engineering-background"
+        />
     <div className="digital-engineering-content">
       <div className="digital-engineering-heading-tag">
         <p>Digital Engineering and Transformation</p>

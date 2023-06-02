@@ -36,9 +36,10 @@
   );
 }
 
-.content {
+.industry-slt-content {
   margin-bottom: 5rem;
-  padding-left: 8rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .content__title {
@@ -46,14 +47,14 @@
   margin-bottom: 1rem;
   padding-top: 3rem;
   font-size: var(--font-size-lg);
-  font-weight: var( --font-weight-medium);
+  font-weight: var(--font-weight-medium);
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: hsl(21, 97%, 53%);
 }
-.content-border{
+.content-border {
   border-bottom: 3px solid var(--color-secondary);
-padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .timeline {
@@ -246,7 +247,6 @@ padding-bottom: 4rem;
   opacity: 1;
 }
 
-
 .timeline__slides {
   --slides-container-height: auto; /* calcs on the fly in js */
 
@@ -266,7 +266,6 @@ padding-bottom: 4rem;
   height: var(--slides-container-height);
   border-radius: 5px;
   background-color: var(--bg-color-default);
-
 }
 
 @media (min-width: 700px) {

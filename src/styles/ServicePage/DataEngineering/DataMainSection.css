@@ -34,11 +34,12 @@
   padding: 10px;
   cursor: pointer;
 }
-
+ 
 .data-main-card-border {
   padding: 2rem 0;
   border-top: 2px solid hsl(21, 97%, 53%);
   border-bottom: 2px solid hsl(21, 97%, 53%);
+  height: 100%
 }
 .data-main-card-title {
   font-size: 22px;

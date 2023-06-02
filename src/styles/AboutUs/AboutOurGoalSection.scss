@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-container-bg {
+  background-color: #1c2321;
+  color: #fff;
+}
+
+.timeline-container-body {
+  font-family: "Poppins", sans-serif;
+  background: #1c2321;
+  margin: 0 5rem 0 5rem;
+  padding-left: 6.2rem;
+  padding-right: 6.2rem;
+}
+
+.timeline-container-body-heading {
+  padding: 4rem 0;
+  font-weight: 500;
+}
+
+.timeline-container-body-heading h1 {
+  font-size: 32px;
+  color: hsl(21, 97%, 53%);
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-bottom: 35px;
+
+  .vertical-scrollable-timeline {
+    width: 600px;
+    list-style-type: none;
+    position: relative;
+
+    .list-progress {
+      width: 8px;
+      height: 100%;
+      background-color: hsl(21, 97%, 53%);
+      position: absolute;
+      left: 48px;
+      top: 0;
+      overflow: hidden;
+
+      .inner {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        background-color: #c5c3cb;
+        width: 100%;
+        transition: 0.1s all;
+      }
+    }
+
+    li {
+      position: relative;
+      padding: 35px 0px 125px 158px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .timeline-container-h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: #ffffff;
+      }
+
+      p {
+        line-height: 1.5;
+        color: #ffffff;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .icon-holder {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 104px;
+        height: 104px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c5c3cb;
+        border-radius: 50%;
+        z-index: 1;
+        transition: 0.4s all;
+
+        &::before {
+          content: "";
+          width: 80px;
+          height: 80px;
+          border: 4px solid #fff;
+          position: absolute;
+          background-color: #c5c3cb;
+          border-radius: 50%;
+          z-index: -1;
+          transition: 0.4s all;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 8px;
+        background-color: transparent;
+        left: 48px;
+        z-index: 0;
+      }
+
+      &:last-child {
+        &::before {
+          width: 8px;
+          left: 48px;
+          background-color: #1c2321;
+        }
+      }
+
+      &.active {
+        .icon-holder {
+          background-color: hsl(21, 97%, 53%);
+
+          &::before {
+            background-color: hsl(21, 97%, 53%);
+          }
+        }
+      }
+    }
+  }
+}

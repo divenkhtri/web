@@ -1,4 +1,4 @@
-.service__heading h2 {
+.homescreen__service__heading h2 {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -6,27 +6,23 @@
   font-weight: 500;
 }
 
-.service__heading p {
+.homescreen__service__heading p {
   text-align: center;
-  margin-bottom: -4rem;
+  margin-bottom: 1rem;
   font-size: 22px;
 }
 
-.service__container {
-  width: 100vw;
-
-  max-height: 800px;
+.homescreen__service__container {
+  width: 100%;
   max-width: 1280px;
-  min-height: 600px;
-  min-width: 1000px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: -10rem;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-.service__border {
+.homescreen__service__border {
   height: 369px;
   width: 290px;
   background: transparent;
@@ -35,11 +31,11 @@
   position: relative;
 }
 
-.service__border:hover {
+.homescreen__service__border:hover {
   border: 1px solid #fff;
 }
 
-.service__card {
+.homescreen__service__card {
   height: 379px;
   width: 300px;
   background: rgb(71, 71, 71);
@@ -52,77 +48,71 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 10px;
 }
 
-.service__card:nth-child(1) {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    center center no-repeat;
+.homescreen__service__card:nth-child(1) {
+  background: center center no-repeat;
   background-size: 300px;
 }
 
-.service__card:nth-child(1):hover {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    left center no-repeat;
+.homescreen__service__card:nth-child(1):hover {
+  background: left center no-repeat;
   background-size: 600px;
   box-shadow: 0 70px 50px -50px #000000;
 }
 
-.service__card:nth-child(1):hover .service__card__h2,
-.service__card:nth-child(1):hover .service__fa {
+.homescreen__service__card:nth-child(1):hover .homescreen__service__card__h2,
+.homescreen__service__card:nth-child(1):hover .homescreen__service__fa {
   opacity: 1;
 }
 
-.service__card:nth-child(2) {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    center center no-repeat;
+.homescreen__service__card:nth-child(2) {
+  background: center center no-repeat;
   background-size: 300px;
 }
 
-.service__card:nth-child(2):hover {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    left center no-repeat;
+.homescreen__service__card:nth-child(2):hover {
+  background: left center no-repeat;
   background-size: 600px;
 }
 
-.service__card:nth-child(2):hover .service__card__h2,
-.service__card:nth-child(2):hover .service__fa {
+.homescreen__service__card:nth-child(2):hover .homescreen__service__card__h2,
+.homescreen__service__card:nth-child(2):hover .homescreen__service__fa {
   opacity: 1;
 }
 
-.service__card:nth-child(3) {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    center center no-repeat;
+.homescreen__service__card:nth-child(3) {
+  background-image: center center no-repeat;
   background-size: 300px;
 }
 
-.service__card:nth-child(3):hover {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    right center no-repeat;
+.homescreen__service__card:nth-child(3):hover {
+  background-image: right center no-repeat;
   background-size: 600px;
 }
 
-.service__card:nth-child(3):hover .service__card__h2,
-.service__card:nth-child(3):hover .service__fa {
+.homescreen__service__card:nth-child(3):hover .homescreen__service__card__h2,
+.homescreen__service__card:nth-child(3):hover .homescreen__service__fa {
   opacity: 1;
 }
-.service__card:nth-child(4) {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    center center no-repeat;
+
+.homescreen__service__card:nth-child(4) {
+  background: center center no-repeat;
   background-size: 300px;
 }
 
-.service__card:nth-child(4):hover {
-  background: url("https://images.pexels.com/photos/7498603/pexels-photo-7498603.jpeg?auto=compress&cs=tinysrgb&w=600")
-    right center no-repeat;
+.homescreen__service__card:nth-child(4):hover {
+  background: right center no-repeat;
   background-size: 600px;
 }
 
-.service__card:nth-child(4):hover .service__card__h2,
-.service__card:nth-child(4):hover .service__fa {
+.homescreen__service__card:nth-child(4):hover .homescreen__service__card__h2,
+.homescreen__service__card:nth-child(4):hover .homescreen__service__fa {
   opacity: 1;
 }
 
-.service__card__h2 {
+.homescreen__service__card__h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   margin: 20px;
@@ -131,8 +121,7 @@
   font-weight: 500;
 }
 
-
-.service__fa {
+.homescreen__service__fa {
   opacity: 0;
   transition: opacity 1s;
   font-size: 15px;
@@ -140,13 +129,13 @@
   transition: 0.2s;
 }
 
-.service__fa:hover {
+.homescreen__service__fa:hover {
   color: hsl(21, 97%, 53%);
   font-size: 16px;
   font-weight: 600;
 }
 
-.service__icons {
+.homescreen__service__icons {
   position: absolute;
   fill: #fff;
   color: #fff;
@@ -158,4 +147,77 @@
   margin-left: 7px;
   align-items: flex-start;
   justify-content: space-around;
+}
+
+/* Responsive Styles */
+
+/* Extra Small (XS) */
+@media (max-width: 576px) {
+  .homescreen__service__heading h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .homescreen__service__heading p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+  .homescreen__service__container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .homescreen__service__card {
+    margin: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Small (SM) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .homescreen__service__container {
+    justify-content: center;
+  }
+
+  .homescreen__service__card {
+    width: 45%;
+    max-width: 300px;
+  }
+}
+
+/* Medium (MD) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .homescreen__service__container {
+    justify-content: space-between;
+  }
+
+  .homescreen__service__card {
+    width: 30%;
+    max-width: 300px;
+  }
+}
+
+/* Large (LG) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .homescreen__service__container {
+    justify-content: space-around;
+  }
+
+  .homescreen__service__card {
+    width: 23%;
+    max-width: 300px;
+  }
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  .homescreen__service__container {
+    justify-content: space-evenly;
+  }
 }

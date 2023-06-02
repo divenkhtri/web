@@ -170,10 +170,12 @@ const Contact = () => {
               Submit
             </button>
 
-            <button className="contact_submit1">Book a Call</button>
+           
           </div>
         </form>
-        {formSubmitted && <p>Form submitted successfully!</p>}
+        {formSubmitted && (
+          <p className="success_message">Form submitted successfully!</p>
+        )}
       </div>
     </div>
   );

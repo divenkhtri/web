@@ -182,9 +182,11 @@ const PharmaCoreSolution = () => {
 
   return (
     <>
-      <div className="content">
-        <div className="container ">
-          <h2 className="content__title">Core Healthcare, Pharma & Life Science Solutions</h2>
+      <div className="industry-slt-content">
+        <div className="industry-slt-container ">
+          <h2 className="content__title">
+            Core Healthcare, Pharma & Life Science Solutions
+          </h2>
           <div className="content-border">
             <div className="timeline">
               <div className="timeline__stepper">

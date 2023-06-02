@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.main___bg {
+  background: #1c2321;
+  color: #ffffff;
+  padding-top: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.why__choose__us__section {
+  margin: 0 5rem 0 5rem;
+  padding-left: 6.2rem;
+  padding-right: 6.2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  transition: all 0.4s;
+}
+
+.why__choose__us__text__container {
+  flex: 1;
+  position: relative;
+  margin-top: -10rem;
+}
+
+.why__choose__us__heading {
+  margin: 3rem 0;
+  font-weight: 500;
+}
+
+.why__choose__us__heading h1 {
+  font-size: 32px;
+  color: hsl(21, 97%, 53%);
+}
+
+.why__choose__us__description {
+  padding-top: 2rem;
+  font-weight: 400;
+}
+
+.why__choose__us__description p {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.why__choose__us__description__1,
+.why__choose__us__description__2 {
+  cursor: pointer;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.why__choose__us__description__1 span,
+.why__choose__us__description__2 span {
+  font-size: 26px;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.why__choose__us__description__1__span {
+  width: 180%;
+}
+.why__choose__us__description__2 {
+  width: 180%;
+}
+
+.why__choose__us__description__1:hover span,
+.why__choose__us__description__2:hover span {
+  font-size: 26px;
+  color: hsl(21, 97%, 53%);
+  font-weight: 500;
+}
+
+.why__choose__us__image__container {
+  margin-top: -10rem;
+  position: relative;
+  width: 450px;
+  height: auto;
+}
+
+.main___bg:hover
+  .why__choose__us__image__container
+  .why__choose__us__image__wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 8px;
+  top: 0;
+  right: 0;
+  background-color: hsl(21, 97%, 53%);
+  transform-origin: 0 0;
+  transform: skewX(-45deg);
+}
+
+.main___bg:hover
+  .why__choose__us__image__container
+  .why__choose__us__image__wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 65%;
+  top: 0;
+  right: 0;
+  background-color: hsl(21, 97%, 53%);
+  transform-origin: 100% 0;
+  transform: skewY(-45deg);
+}
+
+.why__choose__us__image__container .why__choose__us__image__wrapper img {
+  display: block;
+  width: 500px;
+  height: auto;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.why__choose__us__image__wrapper {
+  margin-left: 2rem;
+  transition: all 0.3s;
+  padding-bottom: 1rem;
+}
+
+/* Media Queries */
+
+/* Extra Small devices (up to 576px) */
+@media (max-width: 576px) {
+  .why__choose__us__section {
+    margin: 0 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why__choose__us__text__container,
+  .why__choose__us__image__container {
+    margin-top: 0;
+  }
+
+  .why__choose__us__heading h1 {
+    font-size: 24px;
+  }
+
+  .why__choose__us__description p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .why__choose__us__image__container {
+    width: 100%;
+  }
+
+  .why__choose__us__image__wrapper img {
+    width: 100%;
+    padding: 1rem 1rem 0;
+    margin-bottom: 0;
+  }
+
+  .main___bg:hover
+    .why__choose__us__image__container
+    .why__choose__us__image__wrapper::before,
+  .main___bg:hover
+    .why__choose__us__image__container
+    .why__choose__us__image__wrapper::after {
+    display: none;
+  }
+}
+
+/* Small devices (576px to 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .why__choose__us__section {
+    margin: 0 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .why__choose__us__image__container {
+    width: 400px;
+  }
+}
+
+/* Medium devices (768px to 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .why__choose__us__section {
+    margin: 0 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .why__choose__us__image__container {
+    width: 350px;
+  }
+}
+
+/* Large devices (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .why__choose__us__section {
+    margin: 0 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .why__choose__us__image__container {
+    width: 400px;
+  }
+}
+
+/* Extra Large devices (1200px and above) */
+@media (min-width: 1200px) {
+  .why__choose__us__description__1__span {
+    width: 100%;
+  }
+
+  .why__choose__us__description__2 {
+    width: auto;
+  }
+
+}

@@ -196,7 +196,7 @@
                     to="/contact"
                     className="@apply ml-10 flex flex-row items-start  w-auto h-auto flex-none order-2 grow-0 px-[30px] py-[15px] rounded-[10px] bg-[#1B5E88] text-white font-semibold hover:bg-sky-600"
                   >
-                    Contact Us
+                    Book A Call
                   </Link>
                 </div>
               </div>

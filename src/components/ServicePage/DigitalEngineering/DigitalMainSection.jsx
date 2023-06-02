@@ -19,7 +19,7 @@ const DigitalMainSection = () => {
         description:
           "Harness analytics and AI to propel your business forward. Our expert team delivers customized solutions for data-driven insights and informed decision-making. Experience the transformative impact of advanced analytics.",
       },
-    ];
+    ];  
     return (
       <>
         <section className="digital-main-section">

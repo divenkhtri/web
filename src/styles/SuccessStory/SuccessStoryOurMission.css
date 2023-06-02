@@ -1,0 +1,41 @@
+.our-mission {
+  margin: 5rem;
+  padding: 0 5.5rem 0 6rem;
+  background-color: #ffffff;
+}
+
+.our-mission-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.mission-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+}
+
+.mission-text {
+  flex: 1;
+}
+
+.mission-heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.mission-description {
+  font-size: 18px;
+  color: #555555;
+}

@@ -182,8 +182,8 @@ const RetailCoreSolution = () => {
 
   return (
     <>
-      <div className="content">
-        <div className="container ">
+      <div className="industry-slt-content">
+        <div className="industry-slt-container ">
           <h2 className="content__title">Core Retail & Consumer Goods Solutions</h2>
           <div className="content-border">
             <div className="timeline">

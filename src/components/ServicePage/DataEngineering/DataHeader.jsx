@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../styles/ServicePage/DataEngineering.css";
-import heroBackground from "../../../assets/Images/Services/bg.jpg";
+import dataBg from "../../../assets/Videos/Services/DataEngineering/dataBg.mp4";
+
 import { Link } from "react-router-dom";
 
 const DataHeader = () => {
@@ -8,9 +9,11 @@ const DataHeader = () => {
     <>
       <div className="data-engineering-banner">
         <div className="data-engineering-overlay"></div>
-        <img
-          src={heroBackground}
-          alt="Hero Background"
+        <video
+          src={dataBg}
+          autoPlay
+          muted
+          loop
           className="data-engineering-background"
         />
         <div className="data-engineering-content">
@@ -22,16 +25,15 @@ const DataHeader = () => {
             engineering solutions
           </h1>
           <div className="data-engineering-bottom-tag">
-            <p> 
-              Pushing the limits of excellence with data-led <br />{" "}
+            <p>
+              Pushing the limits of excellence with data-led <br />
               transformation
             </p>
           </div>
-          
-            <Link to="/contact" className="data-engineering-bottom-button">
-              <button>Talk to us</button>
-            </Link>
-          
+
+          <Link to="/contact" className="data-engineering-bottom-button">
+            <button>Talk to us</button>
+          </Link>
         </div>
       </div>
     </>

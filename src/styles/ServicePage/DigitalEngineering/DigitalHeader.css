@@ -4,7 +4,7 @@
 .digital-engineering-banner {
   position: relative;
   width: 100%;
-  height: 600px; /* Adjust the height as needed */
+  height: 600px;
   overflow: hidden;
 }
 
@@ -14,14 +14,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    39,
-    30,
-    170,
-    0.8
-  ); /* Adjust the overlay color and opacity */
+  background-color: rgba(39, 30, 170, 0.6);
   z-index: 1;
-  max-width: 600px; /* Set the maximum width of the overlay to 300px */
+  max-width: 600px;
 }
 
 .digital-engineering-background {
