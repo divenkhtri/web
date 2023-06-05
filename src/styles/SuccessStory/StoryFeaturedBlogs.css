@@ -1,11 +1,49 @@
+.success__story__main_body {
+  margin:0 0 5rem 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.success__story__main_heading_container {
+  margin: 2rem 0 2rem 0;
+}
+
 .success__story__main_container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.success__story__main_body {
-  margin: 5rem 0 5rem 0;
-  font-family: "Poppins", sans-serif;
+
+.success__story__main_overlay-heading-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: auto;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.success__story__main_heading_image-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.success__story__main_heading_text-container h2 {
+  font-size: 28px;
+  width: 100%;
+  max-width: 700px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  color: #000000;
+}
+
+.success__story__main_heading_text-container p {
+  font-size: 18px;
+  max-width: 700px;
+  padding-bottom: 1rem;
+  color: #000000;
 }
 
 .success__story__main_image-container {
@@ -20,6 +58,10 @@
   height: auto;
 }
 
+.success__story__main_container2 {
+  margin: 2rem 0 2rem 0;
+}
+
 .success__story__main_overlay-container {
   display: flex;
   justify-content: center;
@@ -30,6 +72,7 @@
   background-color: #ebf0fc;
   width: 100%;
 }
+
 .success__story__main_overlay-container2 {
   display: flex;
   justify-content: center;
@@ -41,9 +84,6 @@
   width: 100%;
 }
 
-.success__story__main_container2 {
-  margin: 2rem 0 2rem 0;
-}
 .success__story__main_image-text-container {
   display: flex;
   align-items: center;
@@ -74,16 +114,22 @@
   align-items: center;
   justify-content: flex-end;
 }
+
 .success__story__main_text-container2 {
   margin-right: 20px;
 }
 
 .success__story__main_text-container h2 {
-  font-size: 24px;
+  font-size: 26px;
   width: 100%;
   max-width: 600px;
   font-weight: 500;
   padding-bottom: 1rem;
+  transition: 0.2s ease;
+}
+
+.success__story__main_container:hover .success__story__main_text-container h2 {
+  color: rgb(255, 122, 51);
 }
 
 .success__story__main_text-container p {
@@ -98,14 +144,27 @@
   max-width: 450px;
   background-color: black;
   color: #fff;
+  transition: 0.3s ease;
 }
+
+.success__story__main_text-container button:hover {
+  background-color: hsl(21, 100%, 60%);
+}
+
 .success__story__main_text-container2 h2 {
-  font-size: 24px;
+  font-size: 26px;
   width: 100%;
   max-width: 600px;
   font-weight: 500;
   padding-bottom: 1rem;
   color: #fff;
+  transition: 0.2s ease;
+}
+
+.success__story__main_container2:hover
+  .success__story__main_text-container2
+  h2 {
+  color: #333333  ;
 }
 
 .success__story__main_text-container2 p {
@@ -120,4 +179,10 @@
   max-width: 450px;
   background-color: black;
   color: #fff;
+  transition: 0.3s ease;
+}
+
+.success__story__main_text-container2 button:hover {
+  background-color: #333333;
+
 }

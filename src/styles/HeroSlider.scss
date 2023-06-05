@@ -1,0 +1,265 @@
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  align-items: center;
+}
+
+.hero-banner-carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-banner-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.hero-banner-slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+.hero-banner-slide.hero-banner-active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.hero-banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 5rem;
+}
+
+.hero-banner-text {
+  z-index: 2;
+  flex: 0 0 50%;
+}
+
+.hero-banner-text h3 {
+  font-weight: 500;
+  font-size: 60px;
+  margin-bottom: 2rem;
+  color: hsl(21, 97%, 53%);
+}
+
+.hero-banner-text p {
+  margin-bottom: 3rem;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.hero-banner-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 346px;
+  height: 60px;
+}
+
+.hero-banner-btn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  gap: 16px;
+  width: 190px;
+  height: 60px;
+  border: none;
+  background: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  color: #000000;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.hero-banner-btn2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 24px;
+  gap: 10px;
+  width: 156px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #333;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hero-banner-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.hero-banner-btn1:hover {
+  background-color: rgba(0, 129, 254, 1);
+  font-size: 20px;
+  color: #fff;
+
+  .hero-banner-icon {
+    width: 26px;
+    height: 24px;
+    transition: 0.1s ease-out;
+  }
+}
+
+.hero-banner-btn2:hover {
+  background-color: rgba(0, 129, 254, 1);
+  font-size: 18px;
+  color: #ffffff;
+  width: 160px;
+}
+
+.hero-banner-pagination {
+  position: absolute;
+  margin-top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-banner-dot.hero-banner-active {
+  background-color: #1b5388;
+}
+
+/* Media Queries */
+
+/* Extra Small (XS) */
+@media (max-width: 576px) {
+  .hero-banner {
+    height: 400px;
+  }
+
+  .hero-banner-text h3 {
+    font-size: 30px;
+  }
+
+  .hero-banner-text p {
+    font-size: 14px;
+  }
+
+  .hero-banner-btn {
+    width: 250px;
+    height: 50px;
+  }
+
+  .hero-banner-btn1 {
+    width: 140px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .hero-banner-btn2 {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .hero-banner-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .hero-banner-pagination {
+    display: none;
+  }
+}
+
+/* Small (SM) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .hero-banner {
+    height: 500px;
+  }
+
+  .hero-banner-text h3 {
+    font-size: 40px;
+  }
+
+  .hero-banner-btn {
+    width: 280px;
+    height: 55px;
+  }
+
+  .hero-banner-btn1 {
+    width: 160px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .hero-banner-btn2 {
+    width: 140px;
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .hero-banner-pagination {
+    display: none;
+  }
+}
+
+/* Medium (MD) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .hero-banner {
+    height: 600px;
+  }
+}
+
+/* Large (LG) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hero-banner {
+    height: 700px;
+  }
+}
+
+/* Extra Large (XL) */
+@media (min-width: 1200px) {
+  /* No specific styles needed for XL */
+}

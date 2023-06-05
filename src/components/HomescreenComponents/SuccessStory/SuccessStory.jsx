@@ -2,11 +2,11 @@
 import React, { useState, useRef } from "react";
 import "../../../styles/SuccessStory.scss"; // this is a  CSS import file
 import saas from "../../../assets/Images/SuccessStory/saas.jpg";
-import cloudPlatform from "../../../assets/Images/SuccessStory/cloud platform.jpg";
-import success from "../../../assets/Images/SuccessStory/couching.jpg";
-import bigData from "../../../assets/Images/SuccessStory/bigData.jpg";
+import cloudPlatform from "../../../assets/Images/SuccessStory/cloudPlatform/cloud.jpg";
+import success from "../../../assets/Images/SuccessStory/saas/saas.jpg";
+import bigData from "../../../assets/Images/SuccessStory/bigData/bigData (2).jpg";
 import { Link } from "react-router-dom";
-import {AiOutlineArrowRight} from 'react-icons/ai'
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const SuccessStory = () => {
   return (
@@ -38,7 +38,9 @@ const SuccessStory = () => {
                           collaborate, enhance and work on various Bills, US
                           Code and CFRs.​
                         </div>
-                        <div className="book-see">Read More</div>
+                        <Link to="/success-story/saas-provider">
+                          <div className="book-see">Read More</div>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -69,7 +71,9 @@ const SuccessStory = () => {
                           multi-brand car rental licensee association addressed
                           data inconsistencies, automated processes.
                         </div>
-                        <div className="book-see">Read More</div>
+                        <Link to="/success-story/cloud-platform-for-car-rental">
+                          <div className="book-see">Read More</div>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -99,7 +103,9 @@ const SuccessStory = () => {
                           Sign-On (SSO) and streamline user management across
                           multiple applications.
                         </div>
-                        <div className="book-see">Read More</div>
+                        <Link to="/success-story/centralized-coaching-platform">
+                          <div className="book-see">Read More</div>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -125,7 +131,9 @@ const SuccessStory = () => {
                           company addressed challenges related to fragmented
                           customer data, unstructured data sources.
                         </div>
-                        <div className="book-see">Read More</div>
+                        <Link to="/success-story/big-data-platform">
+                          <div className="book-see">Read More</div>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -134,8 +142,14 @@ const SuccessStory = () => {
             </div>
           </div>
         </section>
-        <Link to='/success-story' className="succes__story__-heading-button">
-          <button>View More <AiOutlineArrowRight className="succes__story__-heading-icon" size={22}/> </button>
+        <Link to="/success-story" className="succes__story__-heading-button">
+          <button>
+            View More{" "}
+            <AiOutlineArrowRight
+              className="succes__story__-heading-icon"
+              size={22}
+            />{" "}
+          </button>
         </Link>
       </div>
     </>

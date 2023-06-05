@@ -19,13 +19,11 @@ const DigitalHeader = () => {
         <p>Digital Engineering and Transformation</p>
       </div>
       <h1 className="digital-engineering-title">
-        A 360-degree approach to data <br />
-        engineering solutions
+      Embrace innovation, achieve <br/> transformation
       </h1>
       <div className="digital-engineering-bottom-tag">
         <p> 
-          Pushing the limits of excellence with data-led <br />{" "}
-          transformation
+        Ignite Your Digital Future
         </p>
       </div>
       

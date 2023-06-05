@@ -5,6 +5,7 @@ import img2 from "../../../assets/Images/blogandnews/image-web-3-mobile.jpg";
 import img3 from "../../../assets/Images/blogandnews/image-retro-pcs.jpg";
 import img4 from "../../../assets/Images/blogandnews/image-top-laptops.jpg";
 import img5 from "../../../assets/Images/blogandnews/image-gaming-growth.jpg";
+import { Link } from "react-router-dom";
 const BlogHomeScreen = () => {
   return (
     <>
@@ -37,7 +38,9 @@ const BlogHomeScreen = () => {
                       put the power of the platforms back into the hands of the
                       people. But is it really fulfilling its promise?
                     </p>
-                    <button>Read more</button>
+                    <Link to="/blog/create-blog-page-using-sanity-s-headless-cms-in-reactjs">
+                      <button>Read more</button>
+                    </Link>
                   </div>
                 </div>
                 <aside className="news__body__news">

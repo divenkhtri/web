@@ -15,10 +15,11 @@
 }
 
 .banking-story-col {
-  flex-basis: 50%;
+  flex-basis: 88%;
+
 }
 .banking-story-h5{
-  color: #fff;
+  color: hsl(21, 97%, 53%);
   font-weight: 500;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
@@ -33,14 +34,15 @@
 
 .banking-story-h1 {
   color:  hsl(21, 97%, 53%);
-  font-size: 80px;
+  font-size: 48px;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
 
 .banking-story-desc {
   color: #000;
-  font-size: 14px;
-  line-height: 15px;  
+  font-size: 16px;
+  line-height: auto;  
 }
 
 .banking-story-button {
@@ -55,8 +57,8 @@
 }
 
 .banking-story-card {
-  width: 200px;
-  height: 230px;
+  width: 250px;
+  height: 290px;
   display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
@@ -70,17 +72,17 @@
 }
 
 .banking-story-card1 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+  background-image: url('../../../assets/Images/SuccessStory/saas.jpg');
   
 }
 .banking-story-card2 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+  background-image: url('../../../assets/Images/SuccessStory/cloudPlatform/cloud.jpg');
 }
 .banking-story-card3 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+  background-image: url('../../../assets/Images/SuccessStory/saas/saas.jpg');
 }
 .banking-story-card4 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBawDzMNLMLVrDk2TRWY_WWomMcTeRxBEzDDZJIjEnw&usqp=CAU&ec=48600113);
+  background-image: url('../../../assets/Images/SuccessStory/bigData/bigData\ \(2\).jpg');
 }
 
 .banking-story-card:hover {

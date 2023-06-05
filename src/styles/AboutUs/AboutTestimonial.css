@@ -7,13 +7,17 @@
 }
 
 .testimonial__main {
-  background-color: #1c2321;
+  
   color: #fff;
   margin: 0 5rem 5rem 5rem;
   padding-left: 6.2rem;
   padding-right: 6.2rem;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
+}
+
+.testimonial__main__bg{
+  background-color: #1c2321;
 }
 
 .testimonial__card-heading h1 {

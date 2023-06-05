@@ -7,6 +7,7 @@ import AboutServicesSection from "../components/AboutUsPage/AboutServicesection"
 
 import AboutOurGoalSection from "../components/AboutUsPage/AboutOurGoalSection";
 import AboutOurValues from "../components/AboutUsPage/AboutOurValues";
+import AboutTestimonial from "../components/AboutUsPage/AboutTestimonial";
 
 const AboutUs = () => {
   return (
@@ -16,6 +17,7 @@ const AboutUs = () => {
       <AboutOurGoalSection />
       <AboutServicesSection />
       <AboutOurValues />
+      <AboutTestimonial/>
     </>
   );
 };

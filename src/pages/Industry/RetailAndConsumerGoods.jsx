@@ -3,6 +3,7 @@ import RetailHeader from '../../components/IndustryPage/RetailAndConsumerGoods/R
 import RetailMainSection from '../../components/IndustryPage/RetailAndConsumerGoods/RetailMainSection'
 import RetailCoreSolution from '../../components/IndustryPage/RetailAndConsumerGoods/RetailCoreSolution'
 import RetailSuccesStory from '../../components/IndustryPage/RetailAndConsumerGoods/RetailSuccesStory'
+import BankingSuccesStory from '../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory'
 
 const RetailAndConsumerGoods = () => {
   return (
@@ -10,7 +11,7 @@ const RetailAndConsumerGoods = () => {
       <RetailHeader/>
       <RetailMainSection/>
       <RetailCoreSolution/>
-      <RetailSuccesStory/>
+      <BankingSuccesStory/>
     </>
   )
 }

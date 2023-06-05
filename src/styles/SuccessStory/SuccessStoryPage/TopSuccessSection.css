@@ -1,0 +1,123 @@
+.top-success-main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.top-success-left-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+.top-success-right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.top-success-row {
+  display: flex;
+}
+.top-success-row2 {
+  display: flex;
+  transform: translate(-2rem);
+}
+
+.top-success-card {
+  width: 200px;
+  height: 220px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-success-card1 {
+  width: 200px;
+  height: 220px;
+  background-color: #ebf0fc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.top-success-card2 {
+  width: 200px;
+  height: 220px;
+  background-color: #ffffff;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 15px rgb(47 83 151 / 15%);
+  border-radius: 6px;
+}
+.top-success-card4 {
+  width: 200px;
+  height: 220px;
+  background-color: #ff8450;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.top-success-card-icon {
+  margin-bottom: 5px;
+}
+
+.top-success-card-title {
+  margin-top: 10px;
+}
+
+.top-success-card-title h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 3px 0 3px;
+}
+
+.top-success-card-title p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 3px 3px 0 3px;
+  color: #525151;
+}
+.top-success-card-title2 {
+  margin-top: 10px;
+
+}
+
+.top-success-card-title2 h2 {
+  font-weight: 500;
+  font-size: 22px;
+ 
+  color: #fff;
+}
+
+.top-success-card-title2 p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 3px 3px 0 3px;
+  color: #f1eeee;
+}
+
+.top-success-right-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.top-success-right-text {
+  font-size: 18px;
+}

@@ -1,4 +1,4 @@
-.data-eng-bg{
+.data-eng-bg {
   background-color: #e6e7e8;
 }
 .data-eng-main-section {
@@ -10,66 +10,67 @@
   display: -webkit-flex;
   justify-content: center;
   -webkit-justify-content: center;
+  height: 60vh;
 }
 
 .data-eng-card {
-    display: flex;
-    align-items: center;
-    width: 1300px;
-    position: relative;
-    height: 300px;
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  position: relative;
+  height: 300px;
+}
+
+.data-eng-card-image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.data-eng-card-image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  transform-origin: center;
+  animation: pendulum 2s infinite alternate;
+  opacity: 1;
+  object-fit: contain;
+}
+@keyframes pendulum {
+  0% {
+    transform: translateX(-40px);
   }
-  
-  .data-eng-card-image {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  } 
-  
-  .data-eng-card-image2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 300px;
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-    transform-origin: center;
-    animation: pendulum 2s infinite alternate;
-    opacity: 1;
+  100% {
+    transform: translateX(20px);
   }
-  @keyframes pendulum {
-    0% {
-      transform: translateX(-40px);
-    }
-    100% {
-      transform: translateX(20px);
-    }
-  }
-  
-  .data-eng-card-image1 {
-    width: 400px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    transform: translateX(-2.1rem);
-   margin-top: -3rem;
-  }
-  
-  .data-eng-card-content {
-    margin-left: 9rem;
-  }
-  
-  .data-eng-card-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .data-eng-card-text {
-    font-size: 16px;
-    color: #555;
-  }
-  
+}
+
+.data-eng-card-image1 {
+  width: 900px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  transform: translateX(-2.1rem);
+  margin-top: -3rem;
+}
+
+.data-eng-card-content {
+  margin-left: 10rem;
+}
+
+.data-eng-card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.data-eng-card-text {
+  font-size: 16px;
+  color: #555;
+}

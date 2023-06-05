@@ -4,7 +4,8 @@ import slide1 from "../assets/Images/HeroBanner/hero1.jpg";
 import slide2 from "../assets/Images/HeroBanner/hero2.jpg";
 import slide3 from "../assets/Images/HeroBanner/hero3.jpg";
 import slide4 from "../assets/Images/HeroBanner/hero4.jpg";
-import "../styles/HeroSlider.css";
+import "../styles/HeroSlider.scss";
+import { Link } from "react-router-dom";
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -12,25 +13,25 @@ const HeroSlider = () => {
     {
       heading: "Empowering Our Customer for Future",
       subHeading:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum.",
+        "Dedicated to empowering our customers for the future by delivering innovative solutions and transformative technologies that drive their success.",
       image: slide1,
     },
     {
       heading: "Eliminate Blind Spot",
       subHeading:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum.",
+        "We specialize in eliminating blind spots to empower businesses with comprehensive insights and strategic clarity. Our solutions enable you to make informed decisions, mitigate risks, and seize opportunities with confidence.",
       image: slide2,
     },
     {
       heading: "Achieve Digital Transformation",
       subHeading:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum.",
+        "Unlock the power of digital transformation and drive business success. Empowering organizations to embrace the digital era and thrive.",
       image: slide3,
     },
     {
       heading: "Drive Growth & ROI",
       subHeading:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum.",
+        "Driven by one goal: to help businesses achieve exceptional growth and maximize their return on investment. With our innovative solutions and strategic expertise, we empower companies to thrive in today's dynamic market landscape.",
       image: slide4,
     },
   ];
@@ -64,11 +65,16 @@ const HeroSlider = () => {
                 <h3>{slide.heading}</h3>
                 <p>{slide.subHeading}</p>
                 <div className="hero-banner-btn">
-                  <button className="hero-banner-btn1">
-                    Services
-                    <AiOutlineArrowRight className="hero-banner-icon" />
-                  </button>
+                  <Link to={'/service'}>
+                    <button className="hero-banner-btn1">
+                      Services
+                      <AiOutlineArrowRight className="hero-banner-icon" />
+                    </button>
+                  </Link>
+                  <Link to={'/about-us'}>
+
                   <button className="hero-banner-btn2">Learn More</button>
+                  </Link>
                 </div>
               </div>
             </div>

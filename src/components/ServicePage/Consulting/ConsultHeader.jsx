@@ -16,16 +16,14 @@ const ConsultHeader = () => {
         />
       <div className="consult-header-content">
         <div className="consult-header-heading-tag">
-          <p>Data Engineering and solution</p>
+          <p>Consulting And Advisory</p>
         </div>
         <h1 className="consult-header-title">
-          A 360-degree approach to data <br />
-          engineering solutions
+        Strategic Consulting for <br/>Sustainable Growth
         </h1>
         <div className="consult-header-bottom-tag">
           <p>
-            Pushing the limits of excellence with data-led <br />{" "}
-            transformation
+          Navigating the Future Together
           </p>
         </div>
         

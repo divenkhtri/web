@@ -11,8 +11,9 @@ $xxl: 60em;
 .main-story-page-body {
   font-size: 16px;
   line-height: 1.4;
-  padding: 2em 1em;
-  max-width: 55em;
+
+  max-width: 60em;
+
   margin: auto;
   @media screen and (min-width: 30em) {
     padding: 2em;
@@ -141,9 +142,17 @@ $xxl: 60em;
   }
 }
 article {
+  margin-top: 6rem;
   .main-story-page-h2 {
     margin: 1em 0 -1em;
-    font-weight: bold;
+    font-weight: 500;
+  }
+  .main-story-page-tag-p {
+    width: 95%;
+  }
+
+  .main-story-page-tag-ul {
+    width: 85%;
   }
   .main-story-page-tag-p,
   .main-story-page-tag-ul {
@@ -162,7 +171,7 @@ article {
   .main-story-page-body-tag-dl {
     margin: 1.5em 0;
     .main-story-page-body-tag-dt {
-      font-weight: bold;
+      font-weight: 500;
     }
     .main-story-page-body-tag-dd {
       margin-bottom: 0.75em;
@@ -181,7 +190,7 @@ article {
   background: $highlight;
   .main-story-page-body-header {
     background: darken($highlight, 15%);
-    font-weight: bold;
+    font-weight: 500;
   }
   .main-story-page-tag-ul {
     margin: 0 0.75em 0 1.5em;

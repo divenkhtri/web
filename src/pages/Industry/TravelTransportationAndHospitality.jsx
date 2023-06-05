@@ -3,6 +3,7 @@ import TravelHeader from "../../components/IndustryPage/TravelTransportationAndH
 import TravelMainSection from "../../components/IndustryPage/TravelTransportationAndHospitality/TravelMainSection";
 import TravelCoreSolution from "../../components/IndustryPage/TravelTransportationAndHospitality/TravelCoreSolution";
 import TravelSuccesStory from "../../components/IndustryPage/TravelTransportationAndHospitality/TravelSuccesStory";
+import BankingSuccesStory from "../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory";
 
 const TravelTransportationAndHospitality = () => {
   return (
@@ -10,7 +11,7 @@ const TravelTransportationAndHospitality = () => {
       <TravelHeader />
       <TravelMainSection />
       <TravelCoreSolution />
-      <TravelSuccesStory />
+      <BankingSuccesStory />
     </>
   );
 };

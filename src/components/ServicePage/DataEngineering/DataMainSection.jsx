@@ -8,18 +8,18 @@ const DataMainSection = () => {
     {
       title: "Data Integrity Solutions",
       description:
-        "Safeguard your data with our comprehensive Data Integrity Solutions. Ensure accuracy, consistency, and security across your valuable information assets. Trust us for reliable data integrity solutions.",
+        "Tailored Solutions for Your Data Integrity Needs: We understand that every business has unique data integrity requirements. Our team works closely with you to assess your specific needs and develop customized data integrity solutions that align with your business goals. Whether you require on-premises solutions, cloud-based implementations, or a hybrid approach, we have the expertise to meet your data integrity needs.        ",
     },
     {
       title: "Master Data Management",
       description:
-        "Streamline your data with our Master Data Management solutions. Achieve a single, unified view of your critical data across systems and departments. Optimize data quality, consistency, and governance.",
+        "Enable a 360-Degree View of Your Data: Achieving a complete and holistic view of your data is essential for informed decision-making. Our MDM services enable a 360-degree view of your data, breaking down data silos and providing a comprehensive understanding of your business. With integrated data, you can gain valuable insights, identify trends, and uncover new opportunities for growth.        ",
     },
     {
       title: "Analytics and AI",
       description:
-        "Harness analytics and AI to propel your business forward. Our expert team delivers customized solutions for data-driven insights and informed decision-making. Experience the transformative impact of advanced analytics.",
-    }, 
+        "Stay Ahead of the Competition with Predictive Analytics: Predictive analytics empowers businesses to forecast trends, anticipate customer behavior, and gain a competitive edge. Our team excels in predictive analytics, utilizing advanced modeling techniques to uncover valuable insights about future outcomes. By leveraging predictive analytics, you can make informed decisions, mitigate risks, and stay one step ahead in the market.        ",
+    },
   ];
   return (
     <>
@@ -30,16 +30,20 @@ const DataMainSection = () => {
           </div>
           <div className="data-main-section-description">
             <p>
-              At Rhombus Global we build end-to-end solutions that help
-              businesses accelerate product innovation, optimize operations, and
-              increase customer engagement. Our uniquely experienced team of
-              data scientists, engineers, and architects are SMEs in change
-              enablement, and we tailor each solution to your business
-              environment to help you get more customer-focused products to
-              market, faster. We can also help you accelerate your data and
-              analytics solutions through our proprietary IPs, data platform
-              accelerator, and consulting partnerships with AWS, Google Cloud,
-              Microsoft, and Splunk®.
+              At RGS, we offer comprehensive data engineering and solution
+              services to help businesses harness the power of data for informed
+              decision-making and business growth. Our expertise lies in
+              designing, developing, and implementing robust data infrastructure
+              and analytics solutions tailored to your specific needs. Our data
+              engineering services encompass the end-to-end process of
+              collecting, storing, and processing data. We work with diverse
+              data sources and employ advanced techniques to cleanse, transform,
+              and integrate data into a unified and reliable format. Our data
+              engineers utilize leading technologies and frameworks to build
+              scalable data pipelines, ensuring efficient data flow and storage.
+              <br/>
+              <br/>
+              With our data engineering and solution services, we enable businesses to unlock the full potential of their data. We empower you to drive innovation, optimize operations, and uncover hidden opportunities. Trust us to be your strategic partner in building a robust data infrastructure and implementing effective data solutions to fuel your business growth.
             </p>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import data from "../assets/Images/Services/data.jpg";
 import digital from "../assets/Images/Services/digitalEngineering.jpg";
 import consulting from "../assets/Images/Services/consulting.jpg";
+import cloud from '../assets/Images/Services/cloudService.webp'
 
 const ServiceCard = ({ backgroundUrl, name, index }) => {
   const renderServicesCategory = () => {
@@ -103,7 +104,10 @@ const ServiceCard = ({ backgroundUrl, name, index }) => {
   };
 
   return (
-    <div className="homescreen__service__card" style={{ backgroundImage: `url(${backgroundUrl})` }}>
+    <div
+      className="homescreen__service__card"
+      style={{ backgroundImage: `url(${backgroundUrl})` }}
+    >
       <div className="homescreen__service__border">
         <h2 className="homescreen__service__card__h2">{name}</h2>
         <div className="homescreen__service__icons">
@@ -126,7 +130,7 @@ const ServiceCardContainer = () => {
     },
     {
       name: "Cloud Engineering & Platforms",
-      backgroundUrl: data,
+      backgroundUrl: cloud,
     },
     {
       name: "Advisory & Consulting",

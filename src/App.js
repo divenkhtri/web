@@ -26,9 +26,13 @@ import IndustrialGoodsAndManufacturing from "./pages/Industry/IndustrialGoodsAnd
 import TelecomAndMedia from "./pages/Industry/TelecomAndMedia";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { far } from "@fortawesome/free-regular-svg-icons"; 
+import { far } from "@fortawesome/free-regular-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import MainStoryPage from "./pages/SuccessStory/SuccessStoryPage/MainStoryPage";
+
+import SaasProvider from "./pages/SuccessStory/SuccessStoryPage/SaasProvider";
+import CloudPlatform from "./pages/SuccessStory/SuccessStoryPage/CloudPlatform";
+import CoachingPlatform from "./pages/SuccessStory/SuccessStoryPage/CoachingPlatform";
+import BigData from "./pages/SuccessStory/SuccessStoryPage/BigData";
 
 // This exports the whole icon packs for Brand and Solid.
 library.add(far, fas);
@@ -46,13 +50,13 @@ function App() {
         <Route path="/blog/:slug" element={<Blogpost />} />
         <Route path="*" element={<Error />} />
         <Route path="/success-story" element={<SuccessStory />} />
-        <Route path="/success-story/:slug" element={<SuccessStoryPost />} />
+        {/* <Route path="/success-story/:slug" element={<SuccessStoryPost />} //> */}
 
         {/* About Us Page */}
         <Route path="/about-us" element={<AboutUs />} />
 
         {/* Service Page */}
-        <Route path="/services" element={<Service />} />
+        {/* <Route path="/services" element={<Service />} /> */}
         <Route
           path="/services/data-engineering-and-solutions"
           element={<DataEngineeringAndSolutions />}
@@ -71,7 +75,7 @@ function App() {
         />
 
         {/* Industry Page */}
-        <Route path="/industry" element={<Industry />} />
+        {/* <Route path="/industry" element={<Industry />} /> */}
 
         <Route
           path="/industry/banking-insurance-and-financial-institution"
@@ -97,12 +101,19 @@ function App() {
           path="/industry/telecommunication-and-media"
           element={<TelecomAndMedia />}
         />
-      {/* Success Story Post */}
+        {/* Success Story Post */}
 
-      <Route path="/success-story-post"
-      element={<MainStoryPage/>}/>
+        <Route path="/success-story/saas-provider" element={<SaasProvider />} />
+        <Route
+          path="/success-story/cloud-platform-for-car-rental"
+          element={<CloudPlatform />}
+        />
+        <Route
+          path="/success-story/centralized-coaching-platform"
+          element={<CoachingPlatform />}
+        />
+        <Route path="/success-story/big-data-platform" element={<BigData />} />
       </Routes>
-
 
       <Footer />
     </>

@@ -14,15 +14,13 @@ const AboutHeader = () => {
         />
         <div className="about-header-content">
           <h1 className="about-header-title">
-            A core-tech approach for effective business <br /> transformation!
+          Transforming Businesses with <br/>
+           Cutting-Edge Technology
           </h1>
 
           <div className="about-header-heading-tag">
             <p>
-              A digital product engineering company. <br />
-              We integrate experience design and complex engineering to help our
-              clients imagine <br /> what’s possible and accelerate their
-              transition into tomorrow’s digital businesses.
+            Unleashing Big Solutions for Bigger Success
             </p>
           </div>
 
