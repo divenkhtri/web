@@ -19,7 +19,7 @@ const CloudSectorCard = () => {
               Cloud Engineering and Migration
             </h2>
             <p className="cloud-eng-card-text">
-              ransform Your Business with Expert Cloud Engineering and
+              Transform Your Business with Expert Cloud Engineering and
               Migration: At RGS, we specialize in cloud engineering and
               migration services to help businesses embrace the power of cloud
               computing. Our experienced engineers analyze your existing
