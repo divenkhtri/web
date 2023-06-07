@@ -61,11 +61,19 @@ const SuccessStory = () => {
                 <div className="book-slide">
                   <div className="book js-flickity">
                     <div className="book-cell">
-                      <div className="book-img">
-                        <img src={story.image} alt="" className="book-photo" />
-                      </div>
+                      <Link to={story.link}>
+                        <div className="book-img">
+                          <img
+                            src={story.image}
+                            alt=""
+                            className="book-photo"
+                          />
+                        </div>
+                      </Link>
                       <div className="book-content">
-                        <div className="book-title">{story.title}</div>
+                        <Link to={story.link}>
+                          <div className="book-title">{story.title}</div>
+                        </Link>
                         <div className="book-sum">{story.description}</div>
                         <Link to={story.link}>
                           <div className="book-see">Read More</div>
