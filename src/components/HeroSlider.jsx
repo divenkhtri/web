@@ -40,7 +40,7 @@ const HeroSlider = () => {
       setCurrentSlide((prevSlide) =>
         prevSlide === slides.length - 1 ? 0 : prevSlide + 1
       );
-    }, 7000); // Change slide every 7 seconds
+    }, 8000); // Change slide every 7 seconds
 
     return () => clearInterval(interval);
   }, [slides.length]);
