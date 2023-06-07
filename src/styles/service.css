@@ -9,7 +9,7 @@
 .homescreen__service__heading p {
   text-align: center;
   margin-bottom: 1rem;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .homescreen__service__container {
@@ -32,7 +32,7 @@
 }
 
 .homescreen__service__border:hover {
-  border: 1px solid #fff;
+  border: 2px solid #ffffff;
 }
 
 .homescreen__service__card {
@@ -53,6 +53,7 @@
 
 .homescreen__service__card:nth-child(1) {
   background: center center no-repeat;
+  object-fit: cover;
   background-size: 300px;
 }
 
@@ -69,6 +70,7 @@
 
 .homescreen__service__card:nth-child(2) {
   background: center center no-repeat;
+  object-fit: cover;
   background-size: 300px;
 }
 
@@ -84,7 +86,8 @@
 
 .homescreen__service__card:nth-child(3) {
   background-image: center center no-repeat;
-  background-size: 300px;
+  object-fit: cover;
+  height: 379px;
 }
 
 .homescreen__service__card:nth-child(3):hover {
@@ -99,6 +102,7 @@
 
 .homescreen__service__card:nth-child(4) {
   background: center center no-repeat;
+  object-fit: cover;
   background-size: 300px;
 }
 
@@ -113,8 +117,8 @@
 }
 
 .homescreen__service__card__h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
   margin: 20px;
   opacity: 1;
   transition: opacity 1s;
@@ -124,7 +128,7 @@
 .homescreen__service__fa {
   opacity: 0;
   transition: opacity 1s;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   transition: 0.2s;
 }
@@ -132,7 +136,6 @@
 .homescreen__service__fa:hover {
   color: hsl(21, 97%, 53%);
   font-size: 16px;
-  font-weight: 600;
 }
 
 .homescreen__service__icons {

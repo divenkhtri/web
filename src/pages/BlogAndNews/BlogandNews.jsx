@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { client } from "../../lib/client";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
+import IndustryHeader from "../../components/IndustryPage/IndustryHeader copy";
 
 export default function Blog() {
   const [stories, setStories] = useState([]);
@@ -36,6 +37,7 @@ export default function Blog() {
 
   return (
     <>
+    <IndustryHeader/>
       {!stories ? (
         <h2>Loading...</h2>
       ) : (

@@ -260,7 +260,7 @@
   --decoration-scale: 1;
 
   position: relative;
-  width: 600px;
+  width: 900px;
   max-width: 100%;
   margin: auto;
   height: var(--slides-container-height);

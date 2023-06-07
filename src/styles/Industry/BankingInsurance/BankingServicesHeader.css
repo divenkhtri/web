@@ -24,9 +24,9 @@
 }
 
 .banking-header-content {
-  margin-left: 5rem;
+  margin-left: 10rem;
   position: absolute;
-  bottom: 5rem;
+  bottom: 10rem; 
   left: 0;
   padding: 20px;
   display: flex;
@@ -37,14 +37,7 @@
   z-index: 2;
 }
 
-.banking-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 100%;
-}
-
-.banking-header-description {
+.banking-bottom-tag {
   text-align: start;
   background-color: rgba(251, 100, 19, 0.9);
   padding: 10px 20px;
@@ -53,26 +46,19 @@
   font-family: "Poppins" sans-serif;
 }
 
-.banking-header-text {
-  width: 1200px;
-}
-
 .banking-header-title {
-  font-size: 36px;
+  font-size: 45px;
+  margin: 10px 0;
   margin-bottom: 1rem;
   font-family: "Antonio", sans-serif;
 }
 
-.banking-header-button {
-  width: 30%;
-}
-
 .banking-header-contact-button {
-  margin-left: auto;
+  margin-top: 22px;
   padding: 10px 20px;
   background-color: #1b5e88;
-  color: #fff;
-  text-decoration: none;
+  cursor: pointer;
+  display: flex;
 }
 
 .banking-header-contact-button:hover {

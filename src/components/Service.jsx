@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import data from "../assets/Images/Services/data.jpg";
 import digital from "../assets/Images/Services/digitalEngineering.jpg";
 import consulting from "../assets/Images/Services/consulting.jpg";
-import cloud from '../assets/Images/Services/cloudService.webp'
+import cloud from "../assets/Images/Services/cloudService.jpg";
 
 const ServiceCard = ({ backgroundUrl, name, index }) => {
   const renderServicesCategory = () => {
@@ -59,19 +59,19 @@ const ServiceCard = ({ backgroundUrl, name, index }) => {
         return (
           <>
             <Link
-              to="/cloud-engineering-migration"
+              to="/services/cloud-engineering-and-platforms#cloud-engineering-migration"
               className="homescreen__service__fa"
             >
               Cloud Engineering and Migration
             </Link>
             <Link
-              to="/cloud-native-development"
+              to="/services/cloud-engineering-and-platforms#cloud-native-development"
               className="homescreen__service__fa"
             >
               Cloud Native Development
             </Link>
             <Link
-              to="/managed-hosting-support"
+              to="/services/cloud-engineering-and-platforms#managed-hosting-support"
               className="homescreen__service__fa"
             >
               Managed Hosting and Support Services
@@ -81,17 +81,20 @@ const ServiceCard = ({ backgroundUrl, name, index }) => {
       case 3:
         return (
           <>
-            <Link to="/business-consulting" className="homescreen__service__fa">
+            <Link
+              to="/services/consulting-and-advisory#business-consulting"
+              className="homescreen__service__fa"
+            >
               Business Consulting
             </Link>
             <Link
-              to="/technology-consulting"
+              to="/services/consulting-and-advisory#technology-consulting"
               className="homescreen__service__fa"
             >
               Technology Consulting
             </Link>
             <Link
-              to="/cloud-network-consulting"
+              to="/services/consulting-and-advisory#cloud-network-consulting"
               className="homescreen__service__fa"
             >
               Cloud and Network Consulting

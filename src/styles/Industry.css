@@ -1,0 +1,103 @@
+.home-indus-card-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.abt-heading-indus{
+  padding: 2rem;
+}
+
+.home-indus-card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-indus-card {
+  width: 400px;
+  margin: 10px;
+  height: 550px;
+cursor: pointer;
+  border-radius: 5px;
+  background-color: #f8f4f4;
+  transition: transform 0.1s ease;
+}
+
+.home-indus-card:hover {
+  transform: scale(1.01);
+  background-color: hsl(21, 97%, 53%);
+  color: #fff;
+  font-weight: 400;
+}
+
+.home-indus-card-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 0 5px 0 0;
+  object-fit: cover;
+}
+
+.home-indus-card-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.home-indus-card-description {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 576px) {
+  .home-indus-card-title {
+    font-size: 16px;
+  }
+
+  .home-indus-card-description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .home-indus-card-title {
+    font-size: 18px;
+  }
+
+  .home-indus-card-description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .home-indus-card-title {
+    font-size: 20px;
+  }
+
+  .home-indus-card-description {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .home-indus-card-title {
+    font-size: 22px;
+  }
+
+  .home-indus-card-description {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .home-indus-card-title {
+    font-size: 24px;
+  }
+
+  .home-indus-card-description {
+    font-size: 22px;
+  }
+}

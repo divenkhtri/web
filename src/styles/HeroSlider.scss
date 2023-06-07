@@ -1,14 +1,15 @@
 .hero-banner {
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 100%;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .hero-banner-carousel {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 
@@ -70,88 +71,19 @@
 
 .hero-banner-text p {
   margin-bottom: 3rem;
-  font-size: 18px;
-  color: #ffffff;
-}
-
-.hero-banner-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-  width: 346px;
-  height: 60px;
-}
-
-.hero-banner-btn1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 14px 24px;
-  gap: 16px;
-  width: 190px;
-  height: 60px;
-  border: none;
-  background: hsl(0, 0%, 100%);
-  border-radius: 8px;
-  color: #000000;
-
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 32px;
-}
-
-.hero-banner-btn2 {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 24px;
-  gap: 10px;
-  width: 156px;
-  height: 60px;
-  border-radius: 8px;
-  background-color: #333;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.hero-banner-icon {
-  width: 22px;
-  height: 22px;
-}
-
-.hero-banner-btn1:hover {
-  background-color: rgba(0, 129, 254, 1);
   font-size: 20px;
-  color: #fff;
-
-  .hero-banner-icon {
-    width: 26px;
-    height: 24px;
-    transition: 0.1s ease-out;
-  }
-}
-
-.hero-banner-btn2:hover {
-  background-color: rgba(0, 129, 254, 1);
-  font-size: 18px;
   color: #ffffff;
-  width: 160px;
 }
 
 .hero-banner-pagination {
   position: absolute;
-  margin-top: 10px;
+  top: 90%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .hero-banner-dot {
@@ -176,35 +108,40 @@
     height: 400px;
   }
 
+  .hero-banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+  }
+
+  .hero-banner-slide:before {
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  }
+
+  .hero-banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    top: 10%;
+  }
+
+  .hero-banner-text {
+    top: 20px;
+    max-width: 576px;
+    width: 100%;
+  }
   .hero-banner-text h3 {
     font-size: 30px;
   }
 
   .hero-banner-text p {
-    font-size: 14px;
-  }
-
-  .hero-banner-btn {
-    width: 250px;
-    height: 50px;
-  }
-
-  .hero-banner-btn1 {
-    width: 140px;
-    height: 50px;
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  .hero-banner-btn2 {
-    width: 120px;
-    height: 50px;
-    font-size: 14px;
-  }
-
-  .hero-banner-icon {
-    width: 18px;
-    height: 18px;
+    opacity: 0;
   }
 
   .hero-banner-pagination {
@@ -218,26 +155,28 @@
     height: 500px;
   }
 
+  .hero-banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+  }
+
+  .hero-banner-slide:before {
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  }
+
   .hero-banner-text h3 {
     font-size: 40px;
+    top: 20px;
   }
 
-  .hero-banner-btn {
-    width: 280px;
-    height: 55px;
-  }
-
-  .hero-banner-btn1 {
-    width: 160px;
-    height: 55px;
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  .hero-banner-btn2 {
-    width: 140px;
-    height: 55px;
-    font-size: 16px;
+  .hero-banner-text p {
+    font-size: 18px;
   }
 
   .hero-banner-pagination {
@@ -250,16 +189,55 @@
   .hero-banner {
     height: 600px;
   }
+
+  .hero-banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+  }
+
+  .hero-banner-slide:before {
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8 ), rgba(0, 0, 0, 0));
+  }
+
+  .hero-banner-text h3 {
+    font-size: 40px;
+    top: 20px;
+  }
+
+  .hero-banner-text p {
+    font-size: 20px;
+  }
 }
 
 /* Large (LG) */
 @media (min-width: 992px) and (max-width: 1200px) {
-  .hero-banner {
+  .hero-banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 700px;
+    z-index: -1;
   }
-}
 
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  /* No specific styles needed for XL */
+  .hero-banner-slide:before {
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  }
+
+  .hero-banner-text h3 {
+    font-size: 40px;
+    top: 20px;
+  }
+
+  .hero-banner-text p{
+    font-size: 20px;
+  }
 }

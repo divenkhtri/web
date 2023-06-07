@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import slide1 from "../assets/Images/HeroBanner/hero1.jpg";
 import slide2 from "../assets/Images/HeroBanner/hero2.jpg";
 import slide3 from "../assets/Images/HeroBanner/hero3.jpg";
 import slide4 from "../assets/Images/HeroBanner/hero4.jpg";
 import "../styles/HeroSlider.scss";
-import { Link } from "react-router-dom";
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -19,7 +17,7 @@ const HeroSlider = () => {
     {
       heading: "Eliminate Blind Spot",
       subHeading:
-        "We specialize in eliminating blind spots to empower businesses with comprehensive insights and strategic clarity. Our solutions enable you to make informed decisions, mitigate risks, and seize opportunities with confidence.",
+        "We specialize in eliminating blind spots to empower businesses with comprehensive insights and strategic clarity.",
       image: slide2,
     },
     {
@@ -31,7 +29,7 @@ const HeroSlider = () => {
     {
       heading: "Drive Growth & ROI",
       subHeading:
-        "Driven by one goal: to help businesses achieve exceptional growth and maximize their return on investment. With our innovative solutions and strategic expertise, we empower companies to thrive in today's dynamic market landscape.",
+        "With our innovative solutions and strategic expertise, we empower companies to thrive in today's dynamic market landscape.",
       image: slide4,
     },
   ];
@@ -42,7 +40,7 @@ const HeroSlider = () => {
       setCurrentSlide((prevSlide) =>
         prevSlide === slides.length - 1 ? 0 : prevSlide + 1
       );
-    }, 5000); // Change slide every 5 seconds
+    }, 7000); // Change slide every 7 seconds
 
     return () => clearInterval(interval);
   }, [slides.length]);
@@ -64,18 +62,6 @@ const HeroSlider = () => {
               <div className="hero-banner-text">
                 <h3>{slide.heading}</h3>
                 <p>{slide.subHeading}</p>
-                <div className="hero-banner-btn">
-                  <Link to={'/service'}>
-                    <button className="hero-banner-btn1">
-                      Services
-                      <AiOutlineArrowRight className="hero-banner-icon" />
-                    </button>
-                  </Link>
-                  <Link to={'/about-us'}>
-
-                  <button className="hero-banner-btn2">Learn More</button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

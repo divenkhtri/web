@@ -16,213 +16,325 @@
   margin-top: -15rem;
 }
 
+
 .succes__story__-heading h1 {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 32px;
-  font-weight: 500;
-}
-
-.succes__story__-heading-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.succes__story__-heading-button button {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding: 15px 25px 15px 25px;
-  background-color: #000000;
-  color: #ffffff;
-  font-size: 16px;
-  transition: 0.2s ease;
-  &:hover {
-    font-size: 18px;
-    background-color: hsl(21, 97%, 53%);
-    transform: scale(1.05);
-  }
-}
-
-.succes__story__-heading-icon {
-  margin-left: 5px;
+  /* Heading styles */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
 }
 
 .succes__story__-heading p {
-  text-align: center;
-  margin-bottom: 3rem;
-  font-size: 22px;
-}
-
-.book-slide-body {
-  flex: 1;
-  padding-right: 1rem;
-}
-
-.book-slide {
-  width: 100%;
-}
-
-.succes__story__section {
-  margin-bottom: 5rem;
+  /* Paragraph styles */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
 }
 
 .book-slide-container {
+  /* Slide container styles */
   display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: black;
+  margin-top: 24px;
+}
+
+.book-slide-body {
+  /* Slide body styles */
+  flex: 0 0 auto;
+  margin-right: 12px;
+  width: 280px;
+}
+
+.book-store {
+  /* Book store styles */
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.book-slide {
+  /* Book slide styles */
+  position: relative;
+  height: 100%;
 }
 
 .book {
-  background: #fff;
+  /* Book styles */
+  height: 100%;
 }
 
 .book-cell {
-  position: relative;
+  /* Book cell styles */
   display: flex;
-  padding: 25px;
-  width: auto;
-  height: auto;
-  margin-right: 1px;
-  border: 3px solid #1b5e88;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.book-photo {
-  width: 260px;
-  flex-shrink: 0;
-  height: 260px;
-  bottom: 40px;
-  left: 35px;
-  border-radius: 2px;
-  box-shadow: -2px 6px 19px 0px #7f818e;
-  transition: 0.3s ease;
-  &:hover {
-    transform: scale(1.03);
-  }
+.book-cell:hover {
+  /* Book cell hover styles */
+  transform: translateY(-4px);
 }
 
 .book-img {
-  flex-shrink: 0;
+  /* Book image styles */
+  height: 120px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.book-photo {
+  /* Book photo styles */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-.book-title {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  color: #000000;
-  font-weight: 600;
-}
-
-.book-author {
-  margin-top: 3px;
-  font-size: 14px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .book-content {
-  padding: 0 20px;
-  color: #000000;
-  overflow: hidden;
+  /* Book content styles */
+  flex: 1;
+}
+
+.book-title {
+  /* Book title styles */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
 }
 
 .book-sum {
-  margin-top: 20px;
+  /* Book summary styles */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 14px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
+  color: #666;
 }
 
 .book-see {
-  margin-top: 25px;
-  text-align: center;
-  background-color: #000000;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 8px;
+  /* "Read More" button styles */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 14px;
-  width: 160px;
-  border-radius: 5px;
-  &:hover {
-    color: #000000;
-    border: 3px solid #1b5e88;
-    background-color: #fff;
-  }
+  color: #333;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
-@media (max-width: 575px) {
-  .book-cell {
-    width: 100%;
-  }
+.succes__story__-heading-button {
+  /* Heading button styles */
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
 }
 
-@media (max-width: 458px) {
-  .book-photo {
-    width: 180px;
-  }
-  .book-voters {
-    display: none;
-  }
+button {
+  /* Button styles */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
 }
 
-@media (max-width: 420px) {
+/* Media queries for responsiveness */
+@media (max-width: 576px) {
+  .succes__story__-heading h1 {
+    /* Heading styles for XS screen size */
+    font-size: 20px;
+  }
+
+  .succes__story__-heading p {
+    /* Paragraph styles for XS screen size */
+    font-size: 12px;
+  }
+
+  .book-slide-body {
+    /* Slide body styles for XS screen size */
+    margin-right: 8px;
+    width: 200px;
+  }
+
+  .book-img {
+    /* Book image styles for XS screen size */
+    height: 100px;
+  }
+
+  .book-title {
+    /* Book title styles for XS screen size */
+    font-size: 14px;
+  }
+
+  .book-sum {
+    /* Book summary styles for XS screen size */
+    font-size: 12px;
+  }
+
   .book-see {
-    width: 120px;
+    /* "Read More" button styles for XS screen size */
+    font-size: 12px;
+  }
+
+  .succes__story__-heading-button {
+    /* Heading button styles for XS screen size */
+    margin-top: 16px;
+  }
+
+  button {
+    /* Button styles for XS screen size */
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles for SM screen size */
+  .succes__story__-heading h1 {
+    font-size: 22px;
+  }
+
+  .succes__story__-heading p {
     font-size: 13px;
   }
-  .book-photo {
-    width: 130px;
+
+  .book-slide-body {
+    margin-right: 10px;
+    width: 220px;
   }
-  .main-wrapper {
-    margin-top: 50px;
+
+  .book-img {
+    height: 110px;
+  }
+
+  .book-title {
+    font-size: 15px;
+  }
+
+  .book-sum {
+    font-size: 13px;
+  }
+
+  .book-see {
+    font-size: 13px;
+  }
+
+  .succes__story__-heading-button {
+    margin-top: 18px;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 7px 14px;
   }
 }
 
-@media (max-width: 360px) {
-  .rating > label:before {
-    font-size: 0.8em;
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles for MD screen size */
+  .book-slide-body {
+    width: 250px;
+  }
+
+  .book-img {
+    height: 140px;
+  }
+
+  .book-title {
+    font-size: 18px;
+  }
+
+  .book-sum {
+    font-size: 14px;
+  }
+
+  .book-see {
+    font-size: 14px;
+  }
+
+  .succes__story__-heading-button {
+    margin-top: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
 
-@media (max-width: 1220px) {
-  .card-vote {
-    display: none;
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for LG screen size */
+  .book-slide-body {
+    width: 300px;
+  }
+
+  .book-img {
+    height: 160px;
+  }
+
+  .book-title {
+    font-size: 20px;
+  }
+
+  .book-sum {
+    font-size: 16px;
+  }
+
+  .book-see {
+    font-size: 16px;
+  }
+
+  .succes__story__-heading-button {
+    margin-top: 22px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 18px;
   }
 }
 
-@media (max-width: 1085px) {
-  .book-rate > label {
-    font-size: 0.7em;
+@media (min-width: 1201px) {
+  /* Styles for XL screen size */
+  .book-slide-body {
+    width: 350px;
   }
-}
 
-@media (max-width: 1045px) {
-  .books-of {
-    display: none;
+  .book-img {
+    height: 180px;
   }
-}
 
-@media (max-width: 725px) {
-  .browse-category,
-  .search-bar {
-    display: none;
+  .book-title {
+    font-size: 22px;
   }
-  .header-title {
-    margin-right: auto;
-  }
-  .book-cards {
-    grid-template-columns: 1fr;
-  }
-  .book-types {
-    display: none;
-  }
-}
 
-@media (max-width: 372px) {
-  .card-content {
-    padding: 20px;
+  .book-sum {
+    font-size: 18px;
+  }
+
+  .book-see {
+    font-size: 18px;
+  }
+
+  .succes__story__-heading-button {
+    margin-top: 24px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px 20px;
   }
 }

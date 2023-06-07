@@ -16,7 +16,7 @@ const CloudHeader = () => {
           className="cloud-engineering-background"
         />
         <div className="cloud-engineering-content">
-          <div className="cloud-engineering-heading-tag">
+        <div className="cloud-engineering-heading-tag">
             <p>Cloud Engineering and Platforms</p>
           </div>
           <h1 className="cloud-engineering-title">
