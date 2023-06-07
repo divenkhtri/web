@@ -9,7 +9,7 @@ const SuccessStory = () => {
       <main>
         <StoryHeader /> {/* HeroBanner */}
 
-        <SuccessStoryOurMission/>
+        {/* <SuccessStoryOurMission/> */}
         <StoryFeaturedBlogs />
       </main>
     </>

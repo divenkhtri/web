@@ -26,7 +26,7 @@ export default function Blog() {
       } | order(publishedAt desc)`
       )
       .then((data) => {
-        setStories(data.slice(0, 3));
+        setStories(data);
       })
       .catch(console.error);
   }, []);
