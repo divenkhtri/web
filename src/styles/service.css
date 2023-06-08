@@ -157,25 +157,25 @@
   .homescreen__service__heading h2 {
     font-size: 24px;
   }
-  
+
   .homescreen__service__heading p {
     font-size: 18px;
   }
-  
+
   .homescreen__service__border {
     height: 280px;
     width: 220px;
   }
-  
+
   .homescreen__service__card {
     height: 290px;
     width: 230px;
   }
-  
+
   .homescreen__service__card__h2 {
     font-size: 18px;
   }
-  
+
   .homescreen__service__fa {
     font-size: 14px;
   }
@@ -185,25 +185,25 @@
   .homescreen__service__heading h2 {
     font-size: 26px;
   }
-  
+
   .homescreen__service__heading p {
     font-size: 20px;
   }
-  
+
   .homescreen__service__border {
     height: 320px;
     width: 250px;
   }
-  
+
   .homescreen__service__card {
     height: 330px;
     width: 260px;
   }
-  
+
   .homescreen__service__card__h2 {
     font-size: 20px;
   }
-  
+
   .homescreen__service__fa {
     font-size: 14px;
   }
@@ -213,25 +213,25 @@
   .homescreen__service__heading h2 {
     font-size: 28px;
   }
-  
+
   .homescreen__service__heading p {
     font-size: 22px;
   }
-  
+
   .homescreen__service__border {
     height: 350px;
     width: 270px;
   }
-  
+
   .homescreen__service__card {
     height: 360px;
     width: 280px;
   }
-  
+
   .homescreen__service__card__h2 {
     font-size: 22px;
   }
-  
+
   .homescreen__service__fa {
     font-size: 16px;
   }
@@ -239,28 +239,30 @@
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .homescreen__service__heading h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
-  
+
   .homescreen__service__heading p {
-    font-size: 24px;
+    font-size: 20px;
+
   }
-  
+
   .homescreen__service__border {
-    height: 349px;
-    width: 270px;
+    height: 299px;
+    width: 220px;
   }
-  
+
   .homescreen__service__card {
-    height: 359px;
-    width: 280px;
+    height: 309px;
+    width: 230px;
   }
-  
+
   .homescreen__service__card__h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
-  
+
   .homescreen__service__fa {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 1rem;
   }
 }
