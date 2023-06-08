@@ -234,6 +234,30 @@
       font-size: 44px;
       line-height: 52px;
     }
+    .contct_wrapper .contct_box {
+      margin-left: 0;
+    }
+  
+    .contct_wrapper .contct_box input,
+    .contct_wrapper .contct_box textarea {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .contct_wrapper .contct_box textarea {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .label-text-msg {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .checkbox-container {
+      margin-left: 1rem;
+    }
   }
   
   @media (min-width: 1201px) {
