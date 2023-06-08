@@ -258,6 +258,9 @@
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .contact_body {
+    width: 100vh;
+  }
   .contct_container .cont_h2 {
     margin-left: 5rem;
     margin-bottom: 2rem;
