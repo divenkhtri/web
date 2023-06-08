@@ -4,6 +4,7 @@ import RetailMainSection from '../../components/IndustryPage/RetailAndConsumerGo
 import RetailCoreSolution from '../../components/IndustryPage/RetailAndConsumerGoods/RetailCoreSolution'
 import RetailSuccesStory from '../../components/IndustryPage/RetailAndConsumerGoods/RetailSuccesStory'
 import BankingSuccesStory from '../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory'
+import SuccessStorySection from '../../components/ServicePage/SuccessStorySection'
 
 const RetailAndConsumerGoods = () => {
   return (
@@ -11,7 +12,7 @@ const RetailAndConsumerGoods = () => {
       <RetailHeader/>
       <RetailMainSection/>
       <RetailCoreSolution/>
-      <BankingSuccesStory/>
+      <SuccessStorySection/>
     </>
   )
 }

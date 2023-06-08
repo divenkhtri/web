@@ -4,6 +4,7 @@ import IndustrialGoodsMainSection from '../../components/IndustryPage/Industrial
 import IndustrialGoodsCoreSolution from '../../components/IndustryPage/IndustrialGoodsAndManufacturing/IndustrialGoodsCoreSolution'
 import IndustrialGoodsSuccesStory from '../../components/IndustryPage/IndustrialGoodsAndManufacturing/IndustrialGoodsSuccesStory'
 import BankingSuccesStory from '../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory'
+import SuccessStorySection from '../../components/ServicePage/SuccessStorySection'
 
 const IndustrialGoodsAndManufacturing = () => {
   return (
@@ -11,7 +12,7 @@ const IndustrialGoodsAndManufacturing = () => {
       <IndustrialGoodsHeader/>
       <IndustrialGoodsMainSection/>
       <IndustrialGoodsCoreSolution/>
-      <BankingSuccesStory/>
+      <SuccessStorySection/>
     </>
   )
 }

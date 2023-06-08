@@ -8,7 +8,7 @@ const AdvisoryAndConsulting = () => {
     <>
       <ConsultHeader/>
       <ConsultMainction/>
-      <BankingSuccesStory/>
+      <SuccessStorySection/>
     </>
   );
 };

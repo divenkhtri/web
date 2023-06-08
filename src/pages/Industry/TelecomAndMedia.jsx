@@ -4,6 +4,7 @@ import TelecomMainSection from '../../components/IndustryPage/TelecomAndMedia/Te
 import TelecomCoreSolution from '../../components/IndustryPage/TelecomAndMedia/TelcomCoreSolution'
 import TelecomSuccesStory from '../../components/IndustryPage/TelecomAndMedia/TelecomSuccessStory'
 import BankingSuccesStory from '../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory'
+import SuccessStorySection from '../../components/ServicePage/SuccessStorySection'
 
 const TelecomAndMedia = () => {
   return (
@@ -11,7 +12,7 @@ const TelecomAndMedia = () => {
     <TelecomHeader/>
     <TelecomMainSection/>
     <TelecomCoreSolution/>
-    <BankingSuccesStory/>
+    <SuccessStorySection/>
    </>
   )
 }

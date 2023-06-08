@@ -4,6 +4,7 @@ import TravelMainSection from "../../components/IndustryPage/TravelTransportatio
 import TravelCoreSolution from "../../components/IndustryPage/TravelTransportationAndHospitality/TravelCoreSolution";
 import TravelSuccesStory from "../../components/IndustryPage/TravelTransportationAndHospitality/TravelSuccesStory";
 import BankingSuccesStory from "../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory";
+import SuccessStorySection from "../../components/ServicePage/SuccessStorySection";
 
 const TravelTransportationAndHospitality = () => {
   return (
@@ -11,7 +12,7 @@ const TravelTransportationAndHospitality = () => {
       <TravelHeader />
       <TravelMainSection />
       <TravelCoreSolution />
-      <BankingSuccesStory />
+      <SuccessStorySection />
     </>
   );
 };

@@ -3,6 +3,7 @@ import PharmaHeader from '../../components/IndustryPage/HealthcarePharmaAndLifeS
 import PharmaMainSection from '../../components/IndustryPage/HealthcarePharmaAndLifeScience/PharmaMainSection'
 import PharmaCoreSolution from '../../components/IndustryPage/HealthcarePharmaAndLifeScience/PharmaCoreSolution'
 import PharmaSuccesStory from '../../components/IndustryPage/HealthcarePharmaAndLifeScience/PharmaSuccesStory'
+import SuccessStorySection from '../../components/ServicePage/SuccessStorySection'
 
 const HealthcarePharmaAndLifeScience = () => {
   return (
@@ -10,7 +11,7 @@ const HealthcarePharmaAndLifeScience = () => {
         <PharmaHeader/>
         <PharmaMainSection/>
         <PharmaCoreSolution/>
-        <PharmaSuccesStory/>
+        <SuccessStorySection/>
 
     </>
   )

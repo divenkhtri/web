@@ -9,7 +9,7 @@ const DigitalEngineeringAndTransformation = () => {
     <>
       <DigitalHeader/>
       <DigitalMainSection/>
-      <BankingSuccesStory/>
+      <SuccessStorySection/>
     </>
   );
 };

@@ -9,7 +9,7 @@ const CloudEngineeringAndPlatforms = () => {
     <>
       <CloudHeader/>
       <CloudMainSection/>
-      <BankingSuccesStory/>  
+      <SuccessStorySection/>  
     </>
   );
 };

@@ -5,6 +5,7 @@ import BankingMainSection from "../../components/IndustryPage/BankingInsuranceAn
 import BankingCoreSolution from "../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingCoreSolution";
 import BankingSuccesStory from "../../components/IndustryPage/BankingInsuranceAndFinancialServices/BankingSuccesStory";
 import RelatedNews from "../../components/IndustryPage/BankingInsuranceAndFinancialServices/RelatedNews";
+import SuccessStorySection from "../../components/ServicePage/SuccessStorySection";
 
 const BankingInsuranceAndFinancialServices = () => {
   return (
@@ -12,7 +13,7 @@ const BankingInsuranceAndFinancialServices = () => {
       <BankingServicesHeader />
       <BankingMainSection/>
       <BankingCoreSolution/>
-      <BankingSuccesStory/>
+      <SuccessStorySection/>
   
     </>
   );
