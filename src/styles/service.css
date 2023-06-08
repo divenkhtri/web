@@ -54,12 +54,12 @@
 .homescreen__service__card:nth-child(1) {
   background: center center no-repeat;
   object-fit: cover;
-  background-size: 300px;
+  background-size: 280px;
 }
 
 .homescreen__service__card:nth-child(1):hover {
   background: left center no-repeat;
-  background-size: 600px;
+  background-size: 580px;
   box-shadow: 0 70px 50px -50px #000000;
 }
 
@@ -71,12 +71,12 @@
 .homescreen__service__card:nth-child(2) {
   background: center center no-repeat;
   object-fit: cover;
-  background-size: 300px;
+  background-size: 280px;
 }
 
 .homescreen__service__card:nth-child(2):hover {
   background: left center no-repeat;
-  background-size: 600px;
+  background-size: 580px;
 }
 
 .homescreen__service__card:nth-child(2):hover .homescreen__service__card__h2,
@@ -92,7 +92,7 @@
 
 .homescreen__service__card:nth-child(3):hover {
   background-image: right center no-repeat;
-  background-size: 600px;
+  background-size: 580px;
 }
 
 .homescreen__service__card:nth-child(3):hover .homescreen__service__card__h2,
@@ -103,12 +103,12 @@
 .homescreen__service__card:nth-child(4) {
   background: center center no-repeat;
   object-fit: cover;
-  background-size: 300px;
+  background-size: 280px;
 }
 
 .homescreen__service__card:nth-child(4):hover {
   background: right center no-repeat;
-  background-size: 600px;
+  background-size: 580px;
 }
 
 .homescreen__service__card:nth-child(4):hover .homescreen__service__card__h2,
