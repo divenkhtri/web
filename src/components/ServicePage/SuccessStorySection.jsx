@@ -1,81 +1,96 @@
 import React from "react";
-import "../../styles/ServicePage/SuccessStorySection.css";
+import "../../styles/ServicePage/SuccessStorySection.scss";
+import saas from "../../assets/Images/SuccessStory/saas.jpg";
+import cloudPlatform from "../../assets/Images/SuccessStory/cloudPlatform/cloud.jpg";
+import success from "../../assets/Images/SuccessStory/saas/saas.jpg";
+import bigData from "../../assets/Images/SuccessStory/bigData/bigData (2).jpg";
+import { Link } from "react-router-dom";
+import { AiOutlineArrowRight } from "react-icons/ai";
+
 const SuccessStorySection = () => {
+  const stories = [
+    {
+      image: bigData,
+      title: "Big Data Platform for a Travel Company",
+      description:
+        "The implementation of a big data platform for a travel company addressed challenges related to fragmented customer data, unstructured data sources.",
+      link: "/success-story/big-data-platform",
+    },
+    {
+      image: saas,
+      title:
+        "SaaS Providers of public policy collaborative governing technology",
+      description:
+        "To enrich the overall experience of law makers, senators, Institutions and Officials to search, collaborate, enhance and work on various Bills, US Code and CFRs.​",
+      link: "/success-story/saas-provider",
+    },
+    {
+      image: cloudPlatform,
+      title: "Cloud Platform for A Multi Brand Car Rental License Association",
+      description:
+        "The implementation of a cloud platform for a multi-brand car rental licensee association addressed data inconsistencies, automated processes.",
+      link: "/success-story/cloud-platform-for-car-rental",
+    },
+    {
+      image: success,
+      title: "A Centralized Coaching Platform",
+      description:
+        "The organization implemented a centralized Identity Provider (IDP) solution to enable seamless Single Sign-On (SSO) and streamline user management across multiple applications.",
+      link: "/success-story/centralized-coaching-platform",
+    },
+  
+  ];
+
   return (
-    <>
-      <div className="data-success-main-section">
-        <div className="data-success-offering-heading">
-          <h2>Our Experience is Your Experience</h2>
-
-          <p className="data-success-offering-descrp">
-            We are advocates of knowledge sharing – so we encourage our talented
-            engineers and designers to share their experiences and insights with
-            the world.
-          </p>
-        </div>
-        <link
-          href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-          rel="stylesheet"
-        />
-
-        <section className="success-hero-section">
-          <div className="card-grid">
-            <a className="card" href="/">
-              <div
-                className="card__background"
-                style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)",
-                }}
-              ></div>
-              <div className="card__content">
-                <p className="card__category">Category</p>
-                <h3 className="card__heading">Example Card Heading</h3>
-              </div>
-            </a>
-            <a className="card" href="/">
-              <div
-                className="card__background"
-                style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)",
-                }}
-              ></div>
-              <div className="card__content">
-                <p className="card__category">Category</p>
-                <h3 className="card__heading">Example Card Heading</h3>
-              </div>
-            </a>
-            <a className="card" href="/">
-              <div
-                className="card__background"
-                style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)",
-                }}
-              ></div>
-              <div className="card__content">
-                <p className="card__category">Category</p>
-                <h3 className="card__heading">Example Card Heading</h3>
-              </div>
-            </a>
-            <a className="card" href="/">
-              <div
-                className="card__background"
-                style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)",
-                }}
-              ></div>
-              <div className="card__content">
-                <p className="card__category">Category</p>
-                <h3 className="card__heading">Example Card Heading</h3>
-              </div>
-            </a>
-          </div>
-        </section>
+    <div className="service-succes__story__main">
+      <div className="abt-heading">
+        <h1>Success Stories</h1>
+        <p>The latest news to drive business strategy</p>
       </div>
-    </>
+      <section className="succes__story__section">
+        <div className="book-slide-container">
+          {stories.map((story, index) => (
+            <div className="book-slide-body" key={index}>
+              <div className="book-store">
+                <div className="book-slide">
+                  <div className="book js-flickity">
+                    <div className="book-cell">
+                      <Link to={story.link}>
+                        <div className="book-img">
+                          <img
+                            src={story.image}
+                            alt=""
+                            className="book-photo"
+                          />
+                        </div>
+                      </Link>
+                      <div className="book-content">
+                        <Link to={story.link}>
+                          <div className="book-title">{story.title}</div>
+                        </Link>
+                        <div className="book-sum">{story.description}</div>
+                        <Link to={story.link}>
+                          <div className="book-see">Read More</div>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+      <Link to="/success-story" className="succes__story__-heading-button">
+        <button>
+          View More
+          <AiOutlineArrowRight
+            className="succes__story__-heading-icon"
+            size={22}
+          />
+        </button>
+      </Link>
+    </div>
   );
 };
 

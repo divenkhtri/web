@@ -7,6 +7,7 @@ import equinix from "../../../assets/Images/OurPatner/equinix.png";
 import ors from "../../../assets/Images/OurPatner/ors.svg";
 import turbotune from "../../../assets/Images/OurPatner/turbotune.png";
 import salesforce from "../../../assets/Images/OurPatner/salesforce.png";
+import tableau from "../../../assets/Images/OurPatner/tableau.png";
 import "../../../styles/OurPartners.css";
 
 const OurPartners = () => {
@@ -74,6 +75,15 @@ const OurPartners = () => {
           <div className="carousel-item">
             <img
               src={salesforce}
+              alt="salesforce"
+              className="carousel-image"
+              height={200}
+              width={200}
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={tableau}
               alt="salesforce"
               className="carousel-image"
               height={200}

@@ -9,7 +9,7 @@ const DataEngineeringAndSolutions = () => {
     <>
       <DataHeader />
       <DataMainSection />
-      <BankingSuccesStory />
+      <SuccessStorySection />
     </>
   );
 };

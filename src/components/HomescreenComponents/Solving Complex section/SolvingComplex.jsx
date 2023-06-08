@@ -12,7 +12,7 @@ const SolvingComplex = () => {
       image: imge,
       title: "Eliminate Blind Spots",
       description:
-        "Discover new  opportunities for organizations data, operations and   business",
+        "Discover new opportunities for organizations data, operations, and business",
     },
     {
       image: imge2,
@@ -30,9 +30,10 @@ const SolvingComplex = () => {
       image: imge4,
       title: "Drive Growth & ROI",
       description:
-        "Drive automation, optimization and re-engineering to drive growth, productivity and efficiency",
+        "Drive automation, optimization, and re-engineering to drive growth, productivity, and efficiency",
     },
   ];
+
   return (
     <>
       <div className="abt-heading">
@@ -54,13 +55,14 @@ const SolvingComplex = () => {
         </div>
       </div>
       <div className="abt-heading">
-        <p className="lower_desc-paddding">
+        <p className="lower_desc-padding">
           We help CXO's and enterprises solve their most complex technology and
           business challenges. <br /> Our expertise is in our ability to help
-          you sustain, grow and stay ahead of the curve
+          you sustain, grow, and stay ahead of the curve
         </p>
       </div>
     </>
   );
 };
+
 export default SolvingComplex;
