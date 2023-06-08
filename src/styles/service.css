@@ -154,73 +154,114 @@
 
 /* Responsive Styles */
 
-/* Extra Small (XS) */
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .homescreen__service__heading h2 {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 24px;
   }
-
+  
   .homescreen__service__heading p {
-    text-align: center;
-    margin-bottom: 2rem;
     font-size: 18px;
   }
-  .homescreen__service__container {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
+  
+  .homescreen__service__border {
+    height: 280px;
+    width: 220px;
   }
-
+  
   .homescreen__service__card {
-    margin: 1rem;
-    width: 100%;
-    max-width: 300px;
+    height: 290px;
+    width: 230px;
+  }
+  
+  .homescreen__service__card__h2 {
+    font-size: 18px;
+  }
+  
+  .homescreen__service__fa {
+    font-size: 14px;
   }
 }
 
-/* Small (SM) */
-@media (min-width: 576px) and (max-width: 768px) {
-  .homescreen__service__container {
-    justify-content: center;
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .homescreen__service__heading h2 {
+    font-size: 26px;
   }
-
+  
+  .homescreen__service__heading p {
+    font-size: 20px;
+  }
+  
+  .homescreen__service__border {
+    height: 320px;
+    width: 250px;
+  }
+  
   .homescreen__service__card {
-    width: 45%;
-    max-width: 300px;
+    height: 330px;
+    width: 260px;
+  }
+  
+  .homescreen__service__card__h2 {
+    font-size: 20px;
+  }
+  
+  .homescreen__service__fa {
+    font-size: 14px;
   }
 }
 
-/* Medium (MD) */
-@media (min-width: 768px) and (max-width: 992px) {
-  .homescreen__service__container {
-    justify-content: space-between;
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .homescreen__service__heading h2 {
+    font-size: 28px;
   }
-
+  
+  .homescreen__service__heading p {
+    font-size: 22px;
+  }
+  
+  .homescreen__service__border {
+    height: 350px;
+    width: 270px;
+  }
+  
   .homescreen__service__card {
-    width: 30%;
-    max-width: 300px;
+    height: 360px;
+    width: 280px;
+  }
+  
+  .homescreen__service__card__h2 {
+    font-size: 22px;
+  }
+  
+  .homescreen__service__fa {
+    font-size: 16px;
   }
 }
 
-/* Large (LG) */
-@media (min-width: 992px) and (max-width: 1200px) {
-  .homescreen__service__container {
-    justify-content: space-around;
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .homescreen__service__heading h2 {
+    font-size: 30px;
   }
-
+  
+  .homescreen__service__heading p {
+    font-size: 24px;
+  }
+  
+  .homescreen__service__border {
+    height: 369px;
+    width: 290px;
+  }
+  
   .homescreen__service__card {
-    width: 23%;
-    max-width: 300px;
+    height: 379px;
+    width: 300px;
   }
-}
-
-/* Extra Large (XL) */
-@media (min-width: 1200px) {
-  .homescreen__service__container {
-    justify-content: space-evenly;
+  
+  .homescreen__service__card__h2 {
+    font-size: 22px;
+  }
+  
+  .homescreen__service__fa {
+    font-size: 16px;
   }
 }
