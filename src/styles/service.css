@@ -23,8 +23,8 @@
 }
 
 .homescreen__service__border {
-  height: 369px;
-  width: 290px;
+  height: 349px;
+  width: 270px;
   background: transparent;
   border-radius: 10px;
   transition: border 0.3s;
@@ -36,13 +36,13 @@
 }
 
 .homescreen__service__card {
-  height: 379px;
-  width: 300px;
+  height: 359px;
+  width: 280px;
   background: rgb(71, 71, 71);
   border-radius: 10px;
   transition: background 0.8s;
   overflow: hidden;
-  background: black;
+
   box-shadow: 0px 70px 40px -60px #bdbbbb;
   display: flex;
   justify-content: center;
@@ -130,7 +130,6 @@
   transition: opacity 1s;
   font-size: 16px;
   font-weight: 400;
-  transition: 0.2s;
 }
 
 .homescreen__service__fa:hover {
@@ -143,7 +142,7 @@
   fill: #fff;
   color: #fff;
   height: 130px;
-  top: 226px;
+  top: 200px;
   width: auto;
   display: flex;
   flex-direction: column;

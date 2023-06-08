@@ -126,18 +126,22 @@ const ServiceCardContainer = () => {
     {
       name: "Data Engineering & Solutions",
       backgroundUrl: data,
+      link:'data-engineering-and-solutions',
     },
     {
       name: "Digital Engineering & Transformation",
       backgroundUrl: digital,
+      link:'digital-engineering-and-transformation',
     },
     {
       name: "Cloud Engineering & Platforms",
       backgroundUrl: cloud,
+      link:'cloud-engineering-and-platforms',
     },
     {
       name: "Advisory & Consulting",
       backgroundUrl: consulting,
+      link:'consulting-and-advisory',
     },
   ];
 
@@ -152,7 +156,7 @@ const ServiceCardContainer = () => {
       <div className="homescreen__service__container">
         {serviceData.map((service, index) => (
           <Link
-            to={`/services/${index}`}
+            to={`/services/${service.link}`}
             key={index}
             className="homescreen__service__link"
           >
