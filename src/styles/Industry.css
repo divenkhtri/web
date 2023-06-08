@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.abt-heading-indus{
+.abt-heading-indus {
   padding: 2rem;
 }
 
@@ -18,7 +18,7 @@
   width: 400px;
   margin: 10px;
   height: 550px;
-cursor: pointer;
+  cursor: pointer;
   border-radius: 5px;
   background-color: #f8f4f4;
   transition: transform 0.1s ease;
@@ -26,14 +26,14 @@ cursor: pointer;
 
 .home-indus-card:hover {
   transform: scale(1.01);
-  background-color: hsl(21, 97%, 53%);
-  color: #fff;
   font-weight: 400;
 }
 
 .home-indus-card-image {
   width: 100%;
   height: 250px;
+  top: 0;
+  padding-bottom: 1rem;
   border-radius: 0 5px 0 0;
   object-fit: cover;
 }
@@ -43,6 +43,10 @@ cursor: pointer;
   font-weight: 500;
   margin-top: 10px;
   margin-left: 5px;
+}
+
+.home-indus-card:hover .home-indus-card-title {
+  color: hsl(21, 97%, 53%);
 }
 
 .home-indus-card-description {
@@ -83,6 +87,17 @@ cursor: pointer;
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .home-indus-card {
+    width: 230px;
+    margin: 10px;
+    height: 380px;
+  }
+
+  .home-indus-card-image {
+    width: 100%;
+    height: 150px;
+  }
+
   .home-indus-card-title {
     font-size: 22px;
   }
