@@ -216,6 +216,12 @@
     font-size: 36px;
     line-height: 44px;
   }
+
+  .contct_wrapper .contct_box input,
+  .contct_wrapper .contct_box textarea {
+    width: 100%;
+    font-size: 16px;
+  }
   .contct_wrapper .contct_box textarea {
     width: 100%;
     padding-right: 10rem;
@@ -233,6 +239,13 @@
     font-size: 40px;
     line-height: 48px;
   }
+
+  .contct_wrapper .contct_box input,
+  .contct_wrapper .contct_box textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
   .contct_wrapper .contct_box textarea {
     width: 100%;
     padding-right: 10rem;
@@ -249,6 +262,12 @@
     margin-bottom: 2rem;
     font-size: 44px;
     line-height: 52px;
+  }
+
+  .contct_wrapper .contct_box input,
+  .contct_wrapper .contct_box textarea {
+    width: 100%;
+    font-size: 16px;
   }
 
   .contct_wrapper .contct_box textarea {
@@ -269,7 +288,6 @@
     line-height: 58px;
   }
   .contct_wrapper .contct_box textarea {
-  
     padding-right: 10rem;
   }
 
