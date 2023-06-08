@@ -216,6 +216,14 @@
     font-size: 36px;
     line-height: 44px;
   }
+  .contct_wrapper .contct_box textarea {
+    width: 100%;
+    padding-right: 10rem;
+  }
+
+  .contact_textarea {
+    margin-right: 10rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -224,6 +232,14 @@
     margin-bottom: 2rem;
     font-size: 40px;
     line-height: 48px;
+  }
+  .contct_wrapper .contct_box textarea {
+    width: 100%;
+    padding-right: 10rem;
+  }
+
+  .contact_textarea {
+    margin-right: 10rem;
   }
 }
 
@@ -236,7 +252,7 @@
   }
 
   .contct_wrapper .contct_box textarea {
-    width: 400px;
+    width: 300px;
     padding-right: 10rem;
   }
 
@@ -247,9 +263,17 @@
 
 @media (min-width: 1201px) {
   .contct_container .cont_h2 {
-    margin-left: 1rem;
+    margin-left: 4rem;
     margin-bottom: 2rem;
     font-size: 48px;
     line-height: 58px;
+  }
+  .contct_wrapper .contct_box textarea {
+  
+    padding-right: 10rem;
+  }
+
+  .contact_textarea {
+    margin-right: 10rem;
   }
 }
