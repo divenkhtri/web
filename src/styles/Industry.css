@@ -90,20 +90,20 @@
   .home-indus-card {
     width: 230px;
     margin: 10px;
-    height: 380px;
+    height: 400px;
   }
 
   .home-indus-card-image {
     width: 100%;
-    height: 150px;
+    height: 20px;
   }
 
   .home-indus-card-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .home-indus-card-description {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
