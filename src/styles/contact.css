@@ -1,5 +1,6 @@
 .contact_body {
   min-height: 100vh;
+  width: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,19 +265,14 @@
     line-height: 52px;
   }
 
-  .contct_wrapper .contct_box input,
-  .contct_wrapper .contct_box textarea {
-    width: 80%;
+  .contct_wrapper .contct_box input {
+    width: 100%;
     font-size: 16px;
   }
 
   .contct_wrapper .contct_box textarea {
     width: 300px;
-    padding-right: 10rem;
-  }
-
-  .contact_textarea {
-    margin-right: 10rem;
+    margin-left: 40rem;
   }
 }
 
