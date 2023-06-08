@@ -126,15 +126,15 @@ const Contact = () => {
           </div>
 
           <div className="contct_wrapper">
-            <div className="contct_box">
-              <textarea id="msg" required />
+            <div className="contct_box contact_textarea" >
+              <textarea id="msg" required  />
               <label className="label-text-msg" htmlFor="msg">
                 How can we help you?
               </label>
             </div>
           </div>
 
-          <div className="checkbox-container">
+          <div className="checkbox-container ">
             <label className="checkbox-label checkbox-rect">
               <input
                 type="checkbox"
