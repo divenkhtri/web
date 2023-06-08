@@ -261,11 +261,20 @@
   .contact_body {
     width: 100vh;
   }
+
+  .contct_wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(211px, 1fr));
+    gap: 1px;
+  }
   .contct_container .cont_h2 {
     margin-left: 5rem;
     margin-bottom: 2rem;
     font-size: 44px;
     line-height: 52px;
+  }
+
+  .label-text-msg {
+    margin-left: 39rem;
   }
 
   .contct_wrapper .contct_box input {
@@ -275,7 +284,7 @@
 
   .contct_wrapper .contct_box textarea {
     width: 300px;
-    margin-left: 40rem;
+    margin-left: 38rem;
   }
 }
 
