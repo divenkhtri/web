@@ -4,32 +4,39 @@
 
 @media (max-width: 520px) {
   .navbar {
+ 
     width: 100%;
     right: 0;
     top: 100%;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+    background-color: #fff;
   }
 
   .navbar.open {
     opacity: 1;
     visibility: visible;
+    background-color: #fff;
   }
 
   .navbar.visible {
     opacity: 1;
     visibility: visible;
+    background-color: #fff;
+    color: #000;
   }
 
   .navbar.hidden {
     opacity: 0;
     visibility: hidden;
+    background-color: #fff;
   }
 
   .header-logo {
     padding-top: 8px;
     padding-bottom: 8px;
+    background-color: #fff;
   }
 
   .navbar-toggle {
@@ -51,6 +58,7 @@
     position: static !important;
     display: block !important;
     visibility: visible;
+    background-color: #fff;
     opacity: 1;
     margin-top: 10px;
   }

@@ -1,17 +1,16 @@
 import React from "react";
 
-import AboutUs from "../components/HomescreenComponents/AboutUs";
-
-import SolvingComplex from "../components/HomescreenComponents/Solving Complex section/SolvingComplex";
+// HomeScreen Components //
 import HeroSlider from "../components/HeroSlider";
-import IndustryCard from "../components/HomescreenComponents/Industry/IndustryCard";
-import OurPartners from "../components/HomescreenComponents/Our Partners/OurPartners";
-import SuccessStory from "../components/HomescreenComponents/SuccessStory/SuccessStory";
-
+import SolvingComplex from "../components/HomescreenComponents/Solving Complex section/SolvingComplex";
 import CardContainer from "../components/Service";
-
-import ContactHeader from "../components/HomescreenComponents/ContactUs/Contact";
+import OurPartners from "../components/HomescreenComponents/Our Partners/OurPartners";
+import IndustryCard from "../components/HomescreenComponents/Industry/IndustryCard";
+import AboutUs from "../components/HomescreenComponents/AboutUs";
+import SuccessStory from "../components/HomescreenComponents/SuccessStory/SuccessStory";
 import BlogHomeScreen from "../components/HomescreenComponents/NewsAndBlog/BlogHomeScreen";
+import ContactHeader from "../components/HomescreenComponents/ContactUs/Contact";
+
 
 const Homescreen = () => {
   return (
