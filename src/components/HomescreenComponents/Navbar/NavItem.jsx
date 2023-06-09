@@ -4,6 +4,8 @@ import menuData from "./menudata";
 import { BsSearch } from "react-icons/bs";
 import img2 from "../../../assets/Images/logo.png";
 import "../../../styles/Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const location = useLocation();
@@ -95,12 +97,15 @@ const Header = () => {
             </div>
             <div className="flex w-full items-center justify-between px-4 text-black">
               <div>
-                <button
-                  onClick={navbarToggleHandler}
-                  id="navbarToggler"
-                  aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
-                >
+                <div>
+                  <FontAwesomeIcon
+                    icon={faBars}
+                    size="2xl"
+                    onClick={navbarToggleHandler}
+                    id="navbarToggler"
+                    aria-label="Mobile Menu"
+                    className="absolute ml-5 right-1 bg-white top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] cursor-pointer ring-primary focus:ring-2 lg:hidden"
+                  />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px]  text-black transition-all duration-300  ${
                       navbarOpen ? " top-[7px] rotate-45" : " "
@@ -116,12 +121,12 @@ const Header = () => {
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
-                </button>
+                </div>
                 <nav
                   id="navbarCollapse"
                   className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50  py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!y lg:p-0 lg:opacity-100 ${
                     navbarOpen
-                      ? "visibility top-full opacity-100"
+                      ? "visibility top-full opacity-100 bg-white"
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
@@ -165,7 +170,7 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center lg:pr-0">
+              <div className="flex items-center lg:pr-0 sm:mr-12">
                 {searchExpanded ? (
                   <div ref={searchRef} className="relative flex items-center">
                     <input
@@ -191,7 +196,7 @@ const Header = () => {
                 )}
                 <Link
                   to="/contact"
-                  className="@apply ml-10 flex flex-row items-start  w-auto h-auto flex-none order-2 grow-0 px-[30px] py-[15px] rounded-[10px] bg-[#1B5E88] text-white font-semibold hover:bg-sky-600"
+                  className="@apply ml-10 flex flex-row items-start  w-auto h-auto flex-none order-2 grow-0 px-[30px] py-[15px] rounded-[10px] bg-[#1B5E88] text-white font-semibold hover:bg-sky-600 "
                 >
                   Book A Call
                 </Link>
