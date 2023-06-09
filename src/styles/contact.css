@@ -302,6 +302,12 @@
 }
 
 @media (min-width: 1501px) {
+  .contact_body {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 100vw;
+  }
+
   .contct_wrapper .contct_box textarea {
     width: 480px;
     height: 240px;
@@ -310,7 +316,18 @@
     font-weight: 400;
     padding: 20px;
     float: left;
-    margin-left: 45rem;
+    margin-left: 48rem;
     margin-top: -260px;
+  }
+
+  .label-text-msg {
+    margin-left: 49rem;
+  }
+
+  .contct_container .cont_h2 {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 44px;
+    line-height: 52px;
   }
 }
