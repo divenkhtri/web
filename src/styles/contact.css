@@ -300,3 +300,17 @@
     margin-right: 10rem;
   }
 }
+
+@media (min-width: 1501px) {
+  .contct_wrapper .contct_box textarea {
+    width: 480px;
+    height: 240px;
+    background: transparent;
+    border: 1px solid #000;
+    font-weight: 400;
+    padding: 20px;
+    float: left;
+    margin-left: 45rem;
+    margin-top: -260px;
+  }
+}
