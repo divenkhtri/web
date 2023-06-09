@@ -1,6 +1,7 @@
 .data-eng-bg {
   background-color: #e6e7e8;
-  height: 100%;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .data-eng-main-section {
@@ -202,7 +203,7 @@
   .data-eng-main-section {
     padding-left: 6.2rem;
     padding-right: 6.2rem;
-    height: 100vh;
+    height: auto;
   }
 
   .data-eng-card {
