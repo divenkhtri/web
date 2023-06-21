@@ -217,7 +217,9 @@
 
 /* Large (LG) */
 @media (min-width: 992px) and (max-width: 1200px) {
- 
+ .hero-banner{
+  margin-bottom: 2rem;
+ }
   .hero-banner-image img {
     position: absolute;
     top: 0;
