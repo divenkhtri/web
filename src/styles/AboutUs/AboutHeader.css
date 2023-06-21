@@ -88,3 +88,9 @@
 .about-header-bottom-button:hover {
   background-color: hsla(21, 97%, 35%, 1);
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .about-header-content {
+    margin-top: 1rem;
+    margin-left: 3rem;}
+}

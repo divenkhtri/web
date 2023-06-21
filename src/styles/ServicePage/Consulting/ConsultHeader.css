@@ -16,7 +16,7 @@
   height: 100%;
   background-color: rgba(39, 30, 170, 0.6);
   z-index: 1;
-  max-width: 600px; 
+  max-width: 600px;
 }
 
 .consult-header-background {
@@ -88,4 +88,10 @@
   background-color: hsl(21, 97%, 40%);
   font-weight: 800;
   font-size: 54px;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .consult-header-content {
+    margin-left: 3rem;
+  }
 }

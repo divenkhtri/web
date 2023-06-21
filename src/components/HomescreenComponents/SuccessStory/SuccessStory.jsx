@@ -81,7 +81,7 @@ const SuccessStory = () => {
         </div>
       </section>
       <Link to="/success-story" className="succes__story__-heading-button">
-        <button>
+        <button className="succes__story__view__more__button">
           View More
           <AiOutlineArrowRight
             className="succes__story__-heading-icon"

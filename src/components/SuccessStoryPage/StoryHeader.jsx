@@ -13,9 +13,7 @@ const StoryHeader = () => {
           className="story-header-background"
         />
         <div className="story-header-content">
-          <div className="story-header-heading-tag">
-            <p>Cloud Engineering and Platforms</p>
-          </div>
+         
           <h1 className="story-header-title">
             A core-tech approach for effective business <br /> transformation!
           </h1>

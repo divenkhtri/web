@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../../styles/AboutUs/AboutOurValues.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLightbulb } from "@fortawesome/free-solid-svg-icons/faLightbulb";
+
 import { faThumbsUp } from "@fortawesome/free-regular-svg-icons";
 
 import {

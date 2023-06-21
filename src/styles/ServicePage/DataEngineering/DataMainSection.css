@@ -81,3 +81,13 @@
   border-top: 3px solid rgba(39, 30, 170, 0.8);
   border-bottom: 3px solid rgba(39, 30, 170, 0.8);
 }
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .data-main-section {
+    margin: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+ 
+  }
+}

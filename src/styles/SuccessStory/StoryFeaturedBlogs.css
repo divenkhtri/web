@@ -1,5 +1,5 @@
 .success__story__main_body {
-  margin:0 0 5rem 0;
+  margin: 0 0 5rem 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -80,7 +80,7 @@
   align-items: center;
   position: relative;
   height: 350px;
-  background-color: #ff8450;
+  background-color: #ff8450;  
   width: 100%;
 }
 
@@ -164,7 +164,7 @@
 .success__story__main_container2:hover
   .success__story__main_text-container2
   h2 {
-  color: #333333  ;
+  color: #333333;
 }
 
 .success__story__main_text-container2 p {
@@ -184,5 +184,28 @@
 
 .success__story__main_text-container2 button:hover {
   background-color: #333333;
+}
 
+@media (min-width: 993px) and (max-width: 1200px) {
+  .success__story__main_text-container2 {
+    padding-left: 2rem;
+  
+  }
+
+  .success__story__main_text-container2 h2 {
+    font-size: 22px;
+    width: 100%;
+    font-weight: 500;
+    max-width: 800px;
+  
+    color: #fff;
+    transition: 0.2s ease;
+  }
+  .success__story__main_text-container2 p {
+    font-size: 16px;
+
+    padding-bottom: 1rem;
+    max-width: 800px;
+    color: #fff;
+  }
 }

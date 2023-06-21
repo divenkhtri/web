@@ -93,3 +93,9 @@
 .story-header-bottom-button:hover {
   background-color: hsl(203, 67%, 16%);
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .story-header-content {
+    margin-left: 3rem;
+  }
+}

@@ -1,4 +1,3 @@
-
 .abt-heading h1 {
   text-align: center;
   margin-bottom: 2rem;
@@ -18,7 +17,7 @@
 }
 
 .about-section {
- margin-bottom: 12rem; 
+  margin-bottom: 12rem;
   position: relative;
 }
 
@@ -160,7 +159,6 @@
 
   .content-column .inner-column {
     padding-right: 0;
-
   }
 
   .image-column {
@@ -196,7 +194,7 @@
     padding: 0 1rem 20rem;
   }
   .about-section .content-column .inner-column {
-    padding-right: 50px; 
+    padding-right: 50px;
   }
 
   .about-section .image-column .inner-column {
@@ -213,8 +211,6 @@
   .about-section .content-column .inner-column {
     padding-right: 30px;
   }
-
-  
 }
 
 /* Large Styles (992px to 1200px) */

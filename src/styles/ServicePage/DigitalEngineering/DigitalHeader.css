@@ -89,3 +89,9 @@
   font-size: 54px;
   font-weight: 500;
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .digital-engineering-content {
+    margin-left: 4rem;
+  }
+}

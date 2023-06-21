@@ -198,13 +198,23 @@
 /* Large devices (992px to 1200px) */
 @media (min-width: 992px) and (max-width: 1200px) {
   .why__choose__us__section {
-    margin: 0 4rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    margin: 0 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .why__choose__us__image__container {
     width: 400px;
+  }
+
+  .why__choose__us__description {
+    width: 100%;
+    max-width: 500px;
+  }
+  .why__choose__us__description__1__span {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -217,5 +227,4 @@
   .why__choose__us__description__2 {
     width: auto;
   }
-
 }

@@ -37,7 +37,7 @@ export default function Blog() {
 
   return (
     <>
-    <IndustryHeader/>
+      <IndustryHeader />
       {!stories ? (
         <h2>Loading...</h2>
       ) : (
@@ -47,13 +47,11 @@ export default function Blog() {
               <section className="max-w-7xl mx-auto my-20 px-5">
                 <article className="relative">
                   {stories[0].mainImage && (
-                    
-                      <img
-                        src={stories[0].mainImage.asset.url}
-                        alt={stories[0].mainImage.alt}
-                        className="h-96 w-full object-cover rounded-2xl "
-                      />
-                    
+                    <img
+                      src={stories[0].mainImage.asset.url}
+                      alt={stories[0].mainImage.alt}
+                      className="h-96 w-full object-cover rounded-2xl "
+                    />
                   )}
 
                   <div className="absolute bottom-8 left-8">
@@ -80,10 +78,10 @@ export default function Blog() {
         </>
       )}
 
-      <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-10">
+      <section className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-10">
         {stories.map((story) => (
           <Link to={`/blog/${story.slug.current}`} key={story.slug.current}>
-            <article className="border border-slate-400 dark:border-slate-800 rounded-lg overflow-hidden hover:bg-slate-200 dark:hover:bg-slate-800 transition-all duration-200">
+            <article className="border h-screen mb-[-3rem]  border-slate-400 dark:border-slate-800 rounded-lg overflow-hidden hover:bg-slate-200 dark:hover:bg-slate-800 transition-all duration-200">
               {story.mainImage && (
                 <img
                   src={story.mainImage.asset.url}
@@ -100,7 +98,7 @@ export default function Blog() {
                 </p>
                 <h2 className="text-xl my-2">{story.title}</h2>
                 <p className="text-sm leading-relaxed">
-                  {`${story.body[0].children[0].text.substring(0, 200)}...`}
+                  {`${story.body[0].children[0].text.substring(0, 280)}...`}
                 </p>
               </div>
             </article>

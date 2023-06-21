@@ -12,7 +12,7 @@ const SuccessStorySection = () => {
     {
       image: bigData,
       title: "Big Data Platform for a Travel Company",
-      description:
+      description: 
         "The implementation of a big data platform for a travel company addressed challenges related to fragmented customer data, unstructured data sources.",
       link: "/success-story/big-data-platform",
     },

@@ -215,7 +215,10 @@ const BigDataMainStoryPage = () => {
               </li>
             </ul>
             <p className="main-story-page-tag-p">
-            By following a systematic research and process-driven approach, the client successfully implemented the Big Data Platform, addressing their business challenges and gaining valuable insights for decision-making.
+              By following a systematic research and process-driven approach,
+              the client successfully implemented the Big Data Platform,
+              addressing their business challenges and gaining valuable insights
+              for decision-making.
             </p>
             {/* <div class="main-story-page-row">
               <div class="main-story-page-column one third">
@@ -252,17 +255,42 @@ const BigDataMainStoryPage = () => {
 
             <h2 className="main-story-page-h2">Overcoming Challenges</h2>
             <p className="main-story-page-tag-p">
-            The project encountered several challenges along the way. One major challenge was the need to build dynamic attributes to cater to the diverse requirements of the three different SaaS applications. Another challenge was implementing single sign-on (SSO) from a single Identity Provider (IDP) for all third-party integrations. Each application had different integration requirements and data structures, necessitating the development of a dynamic system to handle SAML, JSON, and other data formats. Despite these challenges, the project team successfully overcame them through careful planning, strategic decision-making, and collaborative efforts with the client and other stakeholders.
+              The project encountered several challenges along the way. One
+              major challenge was the need to build dynamic attributes to cater
+              to the diverse requirements of the three different SaaS
+              applications. Another challenge was implementing single sign-on
+              (SSO) from a single Identity Provider (IDP) for all third-party
+              integrations. Each application had different integration
+              requirements and data structures, necessitating the development of
+              a dynamic system to handle SAML, JSON, and other data formats.
+              Despite these challenges, the project team successfully overcame
+              them through careful planning, strategic decision-making, and
+              collaborative efforts with the client and other stakeholders.
               <br />
               <br />
-              Despite these challenges, the project team worked diligently to overcome them. They developed scalable big data architecture, built connectors for data integration, and implemented intelligent dashboards for visualization. Through meticulous planning, technical expertise, and close collaboration with the client, the team successfully addressed the challenges and delivered a robust and effective Big Data Platform solution.
+              Despite these challenges, the project team worked diligently to
+              overcome them. They developed scalable big data architecture,
+              built connectors for data integration, and implemented intelligent
+              dashboards for visualization. Through meticulous planning,
+              technical expertise, and close collaboration with the client, the
+              team successfully addressed the challenges and delivered a robust
+              and effective Big Data Platform solution.
             </p>
-
-         
 
             <h2 className="main-story-page-h2">Solution</h2>
             <p className="main-story-page-tag-p">
-            The Big Data Platform offered a comprehensive solution to the client's challenges. It featured a scalable architecture that could handle large data volumes and accommodate future growth. Common connectors were built to integrate and consolidate disparate data sources, creating a unified view of customer information. The platform provided configurable transformation processes, ensuring flexibility in adding new data sources. Intelligent dashboards and visualization tools enabled users to gain valuable insights and make data-driven decisions. The solution also included robust testing, training, and ongoing support to ensure a seamless implementation and utilization of the platform.
+              The Big Data Platform offered a comprehensive solution to the
+              client's challenges. It featured a scalable architecture that
+              could handle large data volumes and accommodate future growth.
+              Common connectors were built to integrate and consolidate
+              disparate data sources, creating a unified view of customer
+              information. The platform provided configurable transformation
+              processes, ensuring flexibility in adding new data sources.
+              Intelligent dashboards and visualization tools enabled users to
+              gain valuable insights and make data-driven decisions. The
+              solution also included robust testing, training, and ongoing
+              support to ensure a seamless implementation and utilization of the
+              platform.
             </p>
             {/* <div class="main-story-page-row">
               <div class="main-story-page-column one sixth">
@@ -324,7 +352,16 @@ const BigDataMainStoryPage = () => {
             </div> */}
             <h2 className="main-story-page-h2">Results</h2>
             <p className="main-story-page-tag-p">
-            The implementation of the Big Data Platform brought forth significant outcomes for the client. They gained a unified view of their customers, enabling better understanding and personalized experiences. Real-time insights and intelligent reporting empowered decision-making, leading to increased revenue and profitability. The scalable architecture ensured the platform could accommodate growing data volumes, supporting the client's future expansion and data needs. Overall, the end results were improved operational efficiency, enhanced customer satisfaction, and a data-driven approach to drive business growth.
+              The implementation of the Big Data Platform brought forth
+              significant outcomes for the client. They gained a unified view of
+              their customers, enabling better understanding and personalized
+              experiences. Real-time insights and intelligent reporting
+              empowered decision-making, leading to increased revenue and
+              profitability. The scalable architecture ensured the platform
+              could accommodate growing data volumes, supporting the client's
+              future expansion and data needs. Overall, the end results were
+              improved operational efficiency, enhanced customer satisfaction,
+              and a data-driven approach to drive business growth.
             </p>
           </article>
         </main>
